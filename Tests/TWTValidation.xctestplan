@@ -1,0 +1,34 @@
+{
+  "configurations" : [
+    {
+      "id" : "1DFC9B6C-D04D-44DB-9A19-6A6ED71D934C",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "-NSShowNonLocalizedStrings YES"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TWTValidation.xcodeproj",
+      "identifier" : "4CA7C93C18E664CC00A434B6",
+      "name" : "TWTValidation"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TWTValidation.xcodeproj",
+        "identifier" : "4CA7C95118E664CC00A434B6",
+        "name" : "TWTValidationTests"
+      }
+    }
+  ],
+  "version" : 1
+}
