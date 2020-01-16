@@ -7,999 +7,1605 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02889B316FC89E88CC87373E /* NSException+UMKSubclassResponsibility.h in Headers */ = {isa = PBXBuildFile; fileRef = B888F8215C9B50C5F3E2E158 /* NSException+UMKSubclassResponsibility.h */; };
-		02E2876D857C376C51ABC0FB /* UMKTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C15991114ECCA3E7577FBB5 /* UMKTestUtilities.h */; };
-		0309B2F3C171EF1E2D09A09D /* NSDictionary+UMKURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5866A86CDAE92BE139BE82 /* NSDictionary+UMKURLEncoding.m */; };
-		068DE660CB1AA68914F5264F /* UMKErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 957677C429BA9D769B72FF6E /* UMKErrorUtilities.m */; };
-		09860936863CD781E9E763CA /* UMKErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C9109177353005CDDADA4D /* UMKErrorUtilities.h */; };
-		0D0C87146EA5B071B0E69BD9 /* UMKTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C15991114ECCA3E7577FBB5 /* UMKTestUtilities.h */; };
-		18DACF1E5F3C085903A14CDF /* UMKMessageCountingProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6C0AED109C4D853CD30B27 /* UMKMessageCountingProxy.h */; };
-		2129BFDB82D75EEAA68D3D6D /* NSDictionary+UMKURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5866A86CDAE92BE139BE82 /* NSDictionary+UMKURLEncoding.m */; };
-		249B6174DB51599E0BDD904F /* NSException+UMKSubclassResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA15DB8D1588A469F22769 /* NSException+UMKSubclassResponsibility.m */; };
-		2658F586B25D9EB09742453C /* UMKURLEncodedParameterStringParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88F1F15E4DF066CE6FBB17 /* UMKURLEncodedParameterStringParser.m */; };
-		30522CBEA4BA170D9530EC1D /* Pods-libTWTValidation-URLMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B08E166EFFC768106E5B3296 /* Pods-libTWTValidation-URLMock-dummy.m */; };
-		3136E210A25DF80D42921E14 /* UMKParameterPair.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A036182C93C494690FC10 /* UMKParameterPair.m */; };
-		31AE16C81594CF8531FBF1D1 /* UMKParameterPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0AD25186ADD75ABBFF3C4E /* UMKParameterPair.h */; };
-		322A438299CC019BACCADB2D /* UMKTestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 039E51A62A5EA221FB22E93D /* UMKTestUtilities.m */; };
-		32F511DB90D24F467A8DEC80 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D311B4EA87E324A4EF6B7C84 /* Cocoa.framework */; };
-		413A3C933E607211591DA17A /* UMKMessageCountingProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6C0AED109C4D853CD30B27 /* UMKMessageCountingProxy.h */; };
-		41606C352D73523BB740ED76 /* NSException+UMKSubclassResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA15DB8D1588A469F22769 /* NSException+UMKSubclassResponsibility.m */; };
-		49D8C22D33B04FFE72778F09 /* UMKErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 957677C429BA9D769B72FF6E /* UMKErrorUtilities.m */; };
-		4BA9686913FB96F6A63F59BE /* UMKMessageCountingProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F3F79DCF4042075BC0257F /* UMKMessageCountingProxy.m */; };
-		4CBD1A0A9837B8D8541FCFF2 /* UMKParameterPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0AD25186ADD75ABBFF3C4E /* UMKParameterPair.h */; };
-		659E7970618257304D004333 /* Pods-TWTValidation-URLMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCEC696A84528D72C8E22C3 /* Pods-TWTValidation-URLMock-dummy.m */; };
-		6A36749D30472EE0F4B1409A /* Pods-TWTValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C983E9B282141731BC992F55 /* Pods-TWTValidation-dummy.m */; };
-		6B2CDA4146C5770B553C8E8A /* UMKURLEncodedParameterStringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 951AE74A823ECD8C8D877D43 /* UMKURLEncodedParameterStringParser.h */; };
-		6FA074B905DB0A035060A33D /* NSException+UMKSubclassResponsibility.h in Headers */ = {isa = PBXBuildFile; fileRef = B888F8215C9B50C5F3E2E158 /* NSException+UMKSubclassResponsibility.h */; };
-		7492E6C848A4A699F302D8B7 /* UMKParameterPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0AD25186ADD75ABBFF3C4E /* UMKParameterPair.h */; };
-		7C840D9E96584D69D0DB1364 /* UMKParameterPair.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A036182C93C494690FC10 /* UMKParameterPair.m */; };
-		7C8A0D73EB7319959BC7463B /* NSURL+UMKQueryParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C3A41E9EDBF86020E2ADA /* NSURL+UMKQueryParameters.m */; };
-		817F965327FF64BCD5D2C3AD /* NSDictionary+UMKURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E192FFF63BD24C3AC9E77913 /* NSDictionary+UMKURLEncoding.h */; };
-		8339A54C0CEA0E2F770D86A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE57377F1E0D8E996ABDA66 /* Foundation.framework */; };
-		839C7841088E6100A4B9866E /* UMKURLEncodedParameterStringParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88F1F15E4DF066CE6FBB17 /* UMKURLEncodedParameterStringParser.m */; };
-		87808751362C315C5B172513 /* UMKParameterPair.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A036182C93C494690FC10 /* UMKParameterPair.m */; };
-		87FB936B474F384E35DFB6D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE57377F1E0D8E996ABDA66 /* Foundation.framework */; };
-		8A1D0E1CB3BE789268197C6E /* NSException+UMKSubclassResponsibility.h in Headers */ = {isa = PBXBuildFile; fileRef = B888F8215C9B50C5F3E2E158 /* NSException+UMKSubclassResponsibility.h */; };
-		8A67AD166509B1152F850916 /* NSURL+UMKQueryParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C3A41E9EDBF86020E2ADA /* NSURL+UMKQueryParameters.m */; };
-		8D559494DB69CAF4A625C990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE57377F1E0D8E996ABDA66 /* Foundation.framework */; };
-		8EA125930F97F24546277017 /* UMKURLEncodedParameterStringParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88F1F15E4DF066CE6FBB17 /* UMKURLEncodedParameterStringParser.m */; };
-		93E7696188B3691838B76AB4 /* NSDictionary+UMKURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E192FFF63BD24C3AC9E77913 /* NSDictionary+UMKURLEncoding.h */; };
-		9E78A2B935871A24E61A9BD5 /* NSURL+UMKQueryParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C3A41E9EDBF86020E2ADA /* NSURL+UMKQueryParameters.m */; };
-		9ECE2E5F36AB2932B2EFA115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE57377F1E0D8E996ABDA66 /* Foundation.framework */; };
-		9F6CC1667A70626FABC043E5 /* NSURL+UMKQueryParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 02715291720F357AD19996E3 /* NSURL+UMKQueryParameters.h */; };
-		A1BDAE1BFBDE207816031FB8 /* UMKErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 957677C429BA9D769B72FF6E /* UMKErrorUtilities.m */; };
-		A2E732AB03F2127B17C06926 /* UMKURLEncodedParameterStringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 951AE74A823ECD8C8D877D43 /* UMKURLEncodedParameterStringParser.h */; };
-		A5D3E13C9D59C11FD4DAC32A /* Pods-TWTValidation-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3355B370A2DFEA5C3015ED33 /* Pods-TWTValidation-iOS-dummy.m */; };
-		AAFFAE3098D1C2159B5BDFE3 /* NSURL+UMKQueryParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 02715291720F357AD19996E3 /* NSURL+UMKQueryParameters.h */; };
-		B0495CAAA87167815A7BD22A /* UMKMessageCountingProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F3F79DCF4042075BC0257F /* UMKMessageCountingProxy.m */; };
-		B3B88E4B24E1B4E89C6DEC7A /* NSDictionary+UMKURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E192FFF63BD24C3AC9E77913 /* NSDictionary+UMKURLEncoding.h */; };
-		B65DA3EA7DE98F8BB5160B9B /* NSURL+UMKQueryParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 02715291720F357AD19996E3 /* NSURL+UMKQueryParameters.h */; };
-		B8CE60304C77B942C57FFE5A /* UMKTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C15991114ECCA3E7577FBB5 /* UMKTestUtilities.h */; };
-		B98D477987CF6F75F3169CA9 /* UMKTestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 039E51A62A5EA221FB22E93D /* UMKTestUtilities.m */; };
-		C05D02041856DB4419C61BDF /* UMKURLEncodedParameterStringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 951AE74A823ECD8C8D877D43 /* UMKURLEncodedParameterStringParser.h */; };
-		C135D564F27ACE98D9DE2EC7 /* UMKErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C9109177353005CDDADA4D /* UMKErrorUtilities.h */; };
-		C192DFA5EF20EE0F68BA0601 /* UMKMessageCountingProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6C0AED109C4D853CD30B27 /* UMKMessageCountingProxy.h */; };
-		D135560265B6AC10839D69FA /* NSException+UMKSubclassResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA15DB8D1588A469F22769 /* NSException+UMKSubclassResponsibility.m */; };
-		D422137BEEF67F73FE96071D /* Pods-TWTValidation-iOS-URLMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F01676B350EB7B93055FC91D /* Pods-TWTValidation-iOS-URLMock-dummy.m */; };
-		D491BC556851EFCC571573F6 /* Pods-libTWTValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE37477E2AF8C0B041037E /* Pods-libTWTValidation-dummy.m */; };
-		E26ADB2FF1DEA3D9544CFC5E /* NSDictionary+UMKURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5866A86CDAE92BE139BE82 /* NSDictionary+UMKURLEncoding.m */; };
-		E29EA8A1DA0CB00C795F7E54 /* UMKMessageCountingProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F3F79DCF4042075BC0257F /* UMKMessageCountingProxy.m */; };
-		ECFC39EB068D08C22FCF92E6 /* UMKErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C9109177353005CDDADA4D /* UMKErrorUtilities.h */; };
-		FB63CB0482C356660D1D01DD /* UMKTestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 039E51A62A5EA221FB22E93D /* UMKTestUtilities.m */; };
-		FF0757D82EA87762CD21C2E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D311B4EA87E324A4EF6B7C84 /* Cocoa.framework */; };
+		0F7041422C8D3C8C616480DA609DDC8B /* UMKErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C0FED03B8F00256BB036C745BF6401 /* UMKErrorUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FCF5FB94AC67425DD885D6347CDFF51 /* UMKMessageCountingProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D3533A00F8B32B940C272605D9CD36 /* UMKMessageCountingProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1346D9B7DF9E4C1406CDB317063D9E49 /* Pods-SKValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D91C2CECD4C88AC323E6D8F9650D /* Pods-SKValidation-dummy.m */; };
+		1744FDA04E98731F2A1EFF4E88EEF186 /* NSURL+UMKQueryParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 857429BF57A89668EF70A42052D5279B /* NSURL+UMKQueryParameters.m */; };
+		18313A4A27525A101AC9F0F03D45C57A /* NSDictionary+UMKURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 005E829C0C40E960BE60BDC36DE1D801 /* NSDictionary+UMKURLEncoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A0A41824434907C7015B3D5405BC096 /* UMKTestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 25721D2928DD4F098CB78CE27124C107 /* UMKTestUtilities.m */; };
+		1D61039A21970A7AA784D58DBBA78738 /* UMKTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DCCB062AAE25F5C0AB98168EF5D725 /* UMKTestUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		247392288F7A163DD14C643D5892B4C8 /* UMKErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C0FED03B8F00256BB036C745BF6401 /* UMKErrorUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2BBD235ACBCDCAEF5B2912FDB61A2E97 /* UMKTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DCCB062AAE25F5C0AB98168EF5D725 /* UMKTestUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		303B707F5D5097BED4601CEC366E3FA5 /* NSDictionary+UMKURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 09859EF6DACDA366DED77F4BF34CFF86 /* NSDictionary+UMKURLEncoding.m */; };
+		3258D024CC255F210EBD4A5FFD7FCD4E /* Pods-libTWTValidationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F347F0C2D630C7E521044900A1FD5C1E /* Pods-libTWTValidationTests-dummy.m */; };
+		3B5DB6338D00BCC5BC53B7F382E0ED52 /* URLMock-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3353763371970F754783EE26F644034A /* URLMock-macOS-dummy.m */; };
+		3B81FD5AC859712CF41213D9C4C1C5E8 /* UMKParameterPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C89072A50A6BB4C737AF47A45BA8E11 /* UMKParameterPair.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44BA0D5A49466321C38F64ED3EB4A856 /* UMKErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D991EF574259BD20C3A926B25F3BAF1 /* UMKErrorUtilities.m */; };
+		4BCE920CA89492800CEEEB5067B789F6 /* NSException+UMKSubclassResponsibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C573A9955323FBCC414A66734436390 /* NSException+UMKSubclassResponsibility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55E9BF81091F664829029830D9CF3927 /* Pods-SKValidationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F0600944B0B714C0011A58236B7084 /* Pods-SKValidationTests-dummy.m */; };
+		7CC99C87EED3773B005FB871ADA65AA3 /* UMKMessageCountingProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D3533A00F8B32B940C272605D9CD36 /* UMKMessageCountingProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F5C31FADD34E7DD22FCB2FBE29C7E74 /* UMKMessageCountingProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D63145AC29F3D8479BA85B6C6D65B /* UMKMessageCountingProxy.m */; };
+		80E5CDAD2EEE3D0D56C3F797445B952A /* Pods-libTWTValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5274AF82876C082F7F4CF341AEB4BF72 /* Pods-libTWTValidation-dummy.m */; };
+		8DA9D002435246AFA1FB7E2207F6CD21 /* UMKParameterPair.m in Sources */ = {isa = PBXBuildFile; fileRef = E3938D348C2A04839388AA08D47D7A31 /* UMKParameterPair.m */; };
+		90D40531F6A875C4FA2AFB4EAC694C52 /* UMKErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D991EF574259BD20C3A926B25F3BAF1 /* UMKErrorUtilities.m */; };
+		93F89C65CE1DCA3EF734B9B0FAA60485 /* Pods-TWTValidation-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BF7B5B13E410516539AE008446298E /* Pods-TWTValidation-iOS-dummy.m */; };
+		96B1634627B09671FB2A806DF9742B3B /* UMKURLEncodedParameterStringParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A1DAF3AD1495560B8B577FEB15350B /* UMKURLEncodedParameterStringParser.m */; };
+		99D20B02C9719C86114A2EB99557F453 /* NSException+UMKSubclassResponsibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C573A9955323FBCC414A66734436390 /* NSException+UMKSubclassResponsibility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A842DE35DDFBA95D23B6C1C4A70410B /* UMKTestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 25721D2928DD4F098CB78CE27124C107 /* UMKTestUtilities.m */; };
+		A04F2C1355102BC749896074ED4D45B1 /* NSException+UMKSubclassResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F99721B3E9902000282FE78098EA46 /* NSException+UMKSubclassResponsibility.m */; };
+		A5A7FAF9511E7531D5FA2F3B66BACBA5 /* UMKURLEncodedParameterStringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D62B5AE0EE6D3D276F1F3457F83883 /* UMKURLEncodedParameterStringParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A73E0E794DBFEABB11401DE39EF5F2CD /* UMKMessageCountingProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D63145AC29F3D8479BA85B6C6D65B /* UMKMessageCountingProxy.m */; };
+		BCCD27EB34EFCD1B948EAF2C88E577EB /* UMKURLEncodedParameterStringParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A1DAF3AD1495560B8B577FEB15350B /* UMKURLEncodedParameterStringParser.m */; };
+		BDAA8D444A8ACB98CA30CC4C10A6D5A7 /* UMKParameterPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C89072A50A6BB4C737AF47A45BA8E11 /* UMKParameterPair.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE04BD9745D2F31C0AB365441EA1B2BA /* NSDictionary+UMKURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 09859EF6DACDA366DED77F4BF34CFF86 /* NSDictionary+UMKURLEncoding.m */; };
+		C67F66014D7BD9BB29640515270C4C1E /* URLMock-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1C26DEB237C168A8F34844141004E5 /* URLMock-iOS-dummy.m */; };
+		CDA7DD38101EBB1D281CC2522D6DE911 /* Pods-TWTValidationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4505064B95FD27B40F0724235461B47A /* Pods-TWTValidationTests-dummy.m */; };
+		D68792D0A9FFAF52F07EC0EF150E90C3 /* Pods-TWTValidation-iOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85200DEF0DBDDE85CF4D5A1B83031460 /* Pods-TWTValidation-iOSTests-dummy.m */; };
+		DEF226771CA260850EF2B0F483196E6B /* NSURL+UMKQueryParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 857429BF57A89668EF70A42052D5279B /* NSURL+UMKQueryParameters.m */; };
+		DFE750168BD9CCF503C374548E9A3A59 /* NSURL+UMKQueryParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CB669B9840296B2B88803CB1DC4275 /* NSURL+UMKQueryParameters.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E25B533DC6432DD2B4B195FAF5EEB8E8 /* NSException+UMKSubclassResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F99721B3E9902000282FE78098EA46 /* NSException+UMKSubclassResponsibility.m */; };
+		E5CCEE33FAC8D54154B000A57ABC05FA /* UMKParameterPair.m in Sources */ = {isa = PBXBuildFile; fileRef = E3938D348C2A04839388AA08D47D7A31 /* UMKParameterPair.m */; };
+		EBDEE151000CE2583D0E07A026C49400 /* NSURL+UMKQueryParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CB669B9840296B2B88803CB1DC4275 /* NSURL+UMKQueryParameters.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F62218175387C92A1930A5B2FAA21757 /* Pods-TWTValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D1C078E165CFAC9705E51C1D6C713 /* Pods-TWTValidation-dummy.m */; };
+		F8FBE70FE44F2D77714C03999227F068 /* UMKURLEncodedParameterStringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D62B5AE0EE6D3D276F1F3457F83883 /* UMKURLEncodedParameterStringParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9EDC6DB5313E3B64D11DB3B1AC85797 /* NSDictionary+UMKURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 005E829C0C40E960BE60BDC36DE1D801 /* NSDictionary+UMKURLEncoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08C41F658CBF58116FED154C /* PBXContainerItemProxy */ = {
+		0652AE3A402315ACCD80DE8D2377D47D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B20650CF75E5E4EBB68EFA74 /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C65EBA7B40F9A6AE3C673EDD;
-			remoteInfo = "Pods-TWTValidation-iOS-URLMock";
+			remoteGlobalIDString = 5E4D51877EEB83C6C6BD5F2B79672211;
+			remoteInfo = "URLMock-macOS";
 		};
-		5AB3D18789367AC367E80E63 /* PBXContainerItemProxy */ = {
+		172AA0D44D9CFE624595A07C0DCE4E19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B20650CF75E5E4EBB68EFA74 /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2C9BC39515725924AD66E92;
-			remoteInfo = "Pods-libTWTValidation-URLMock";
+			remoteGlobalIDString = 466E2C2C83006BA1BF2D640011749550;
+			remoteInfo = "URLMock-iOS";
 		};
-		A487DC0606B65397098CA7A6 /* PBXContainerItemProxy */ = {
+		41F8E465FC3749CC3B2A192EDCE75121 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B20650CF75E5E4EBB68EFA74 /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 06AE54FA833267C98FDC08AF;
-			remoteInfo = "Pods-TWTValidation-URLMock";
+			remoteGlobalIDString = 5E4D51877EEB83C6C6BD5F2B79672211;
+			remoteInfo = "URLMock-macOS";
+		};
+		7C47A40CFA9C2DA930320E48F1EF95C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466E2C2C83006BA1BF2D640011749550;
+			remoteInfo = "URLMock-iOS";
+		};
+		8F34A6A5C98881AA16DCB13048337529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E4D51877EEB83C6C6BD5F2B79672211;
+			remoteInfo = "URLMock-macOS";
+		};
+		A249E0918FBA1DCDFB2F78A9ADA29E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466E2C2C83006BA1BF2D640011749550;
+			remoteInfo = "URLMock-iOS";
+		};
+		AD3AB71863A5F6951801341B53D28F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466E2C2C83006BA1BF2D640011749550;
+			remoteInfo = "URLMock-iOS";
+		};
+		D2989673B04B4A0793B236F69AA7780B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E4D51877EEB83C6C6BD5F2B79672211;
+			remoteInfo = "URLMock-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02715291720F357AD19996E3 /* NSURL+UMKQueryParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+UMKQueryParameters.h"; path = "URLMock/Categories/NSURL+UMKQueryParameters.h"; sourceTree = "<group>"; };
-		02C7B33ACF4134615CB0D154 /* Pods-libTWTValidation-URLMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-libTWTValidation-URLMock-prefix.pch"; path = "../Pods-libTWTValidation-URLMock/Pods-libTWTValidation-URLMock-prefix.pch"; sourceTree = "<group>"; };
-		039E51A62A5EA221FB22E93D /* UMKTestUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKTestUtilities.m; path = URLMock/Utilities/UMKTestUtilities.m; sourceTree = "<group>"; };
-		116A80FE5E74EAF9552A6B52 /* Pods-TWTValidation-iOS-URLMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TWTValidation-iOS-URLMock-prefix.pch"; path = "../Pods-TWTValidation-iOS-URLMock/Pods-TWTValidation-iOS-URLMock-prefix.pch"; sourceTree = "<group>"; };
-		152B859C735AFD22BB3F1BB4 /* Pods-TWTValidation-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		19855A7AD85BE05F56AF329B /* Pods-TWTValidation-URLMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWTValidation-URLMock-prefix.pch"; sourceTree = "<group>"; };
-		27CD135E8D41180982F7AEA3 /* Pods-TWTValidation-iOS-URLMock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWTValidation-iOS-URLMock-Private.xcconfig"; path = "../Pods-TWTValidation-iOS-URLMock/Pods-TWTValidation-iOS-URLMock-Private.xcconfig"; sourceTree = "<group>"; };
-		285DDAB6580032C147CDFBDA /* libPods-TWTValidation-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWTValidation-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		303DA43DC50ECFDAC5B0F07A /* Pods-libTWTValidation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libTWTValidation-acknowledgements.plist"; sourceTree = "<group>"; };
-		3143786264414FF192AD9836 /* Pods-TWTValidation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWTValidation-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3355B370A2DFEA5C3015ED33 /* Pods-TWTValidation-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWTValidation-iOS-dummy.m"; sourceTree = "<group>"; };
-		3DA36D2080E7617F58095BAE /* Pods-TWTValidation-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWTValidation-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		410E2DB971CA33CFDD382138 /* Pods-libTWTValidation-URLMock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libTWTValidation-URLMock.xcconfig"; path = "../Pods-libTWTValidation-URLMock/Pods-libTWTValidation-URLMock.xcconfig"; sourceTree = "<group>"; };
-		43F3F79DCF4042075BC0257F /* UMKMessageCountingProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKMessageCountingProxy.m; path = URLMock/Utilities/UMKMessageCountingProxy.m; sourceTree = "<group>"; };
-		4404125E40D751FDA5B5FA53 /* Pods-TWTValidation-iOS-URLMock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWTValidation-iOS-URLMock.xcconfig"; path = "../Pods-TWTValidation-iOS-URLMock/Pods-TWTValidation-iOS-URLMock.xcconfig"; sourceTree = "<group>"; };
-		46FE94C474203A00D354FAFA /* Pods-TWTValidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation.debug.xcconfig"; sourceTree = "<group>"; };
-		4C60132BC3C87FD5ED742DCF /* Pods-TWTValidation-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		509CC319F1FB39A5B8313CDD /* libPods-TWTValidation-iOS-URLMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWTValidation-iOS-URLMock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50C9109177353005CDDADA4D /* UMKErrorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKErrorUtilities.h; path = URLMock/Utilities/UMKErrorUtilities.h; sourceTree = "<group>"; };
-		5455A02883583BD68C9C86A5 /* libPods-libTWTValidation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libTWTValidation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		597D404AED7C2855EE05B807 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5A1ADD071891C18C7EAB71E4 /* Pods-TWTValidation-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWTValidation-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		6378B453FB5F91DEA1839902 /* Pods-libTWTValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libTWTValidation.release.xcconfig"; sourceTree = "<group>"; };
-		63FAE9B1A2500931C0B3004F /* Pods-TWTValidation-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWTValidation-iOS-resources.sh"; sourceTree = "<group>"; };
-		781BCA217C5050C97160626F /* Pods-TWTValidation-URLMock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation-URLMock-Private.xcconfig"; sourceTree = "<group>"; };
-		7B0AD25186ADD75ABBFF3C4E /* UMKParameterPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKParameterPair.h; path = URLMock/Utilities/UMKParameterPair.h; sourceTree = "<group>"; };
-		8C15991114ECCA3E7577FBB5 /* UMKTestUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKTestUtilities.h; path = URLMock/Utilities/UMKTestUtilities.h; sourceTree = "<group>"; };
-		8EDB59834123520F00608988 /* Pods-TWTValidation-iOS-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWTValidation-iOS-environment.h"; sourceTree = "<group>"; };
-		92018881BF20422D0272E559 /* libPods-libTWTValidation-URLMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libTWTValidation-URLMock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93997CE4A3AE63C33517C0A3 /* Pods-libTWTValidation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libTWTValidation-acknowledgements.markdown"; sourceTree = "<group>"; };
-		951AE74A823ECD8C8D877D43 /* UMKURLEncodedParameterStringParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKURLEncodedParameterStringParser.h; path = URLMock/Utilities/UMKURLEncodedParameterStringParser.h; sourceTree = "<group>"; };
-		957677C429BA9D769B72FF6E /* UMKErrorUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKErrorUtilities.m; path = URLMock/Utilities/UMKErrorUtilities.m; sourceTree = "<group>"; };
-		9C5866A86CDAE92BE139BE82 /* NSDictionary+UMKURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+UMKURLEncoding.m"; path = "URLMock/Categories/NSDictionary+UMKURLEncoding.m"; sourceTree = "<group>"; };
-		9DDA15DB8D1588A469F22769 /* NSException+UMKSubclassResponsibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+UMKSubclassResponsibility.m"; path = "URLMock/Categories/NSException+UMKSubclassResponsibility.m"; sourceTree = "<group>"; };
-		9FCEC696A84528D72C8E22C3 /* Pods-TWTValidation-URLMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWTValidation-URLMock-dummy.m"; sourceTree = "<group>"; };
-		A2AE37477E2AF8C0B041037E /* Pods-libTWTValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libTWTValidation-dummy.m"; sourceTree = "<group>"; };
-		ADE20896BFB465C692F07A1A /* libPods-TWTValidation-URLMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWTValidation-URLMock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B08E166EFFC768106E5B3296 /* Pods-libTWTValidation-URLMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-libTWTValidation-URLMock-dummy.m"; path = "../Pods-libTWTValidation-URLMock/Pods-libTWTValidation-URLMock-dummy.m"; sourceTree = "<group>"; };
-		B138F6389BE7EF6B8C361F8A /* Pods-TWTValidation-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWTValidation-environment.h"; sourceTree = "<group>"; };
-		B888F8215C9B50C5F3E2E158 /* NSException+UMKSubclassResponsibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+UMKSubclassResponsibility.h"; path = "URLMock/Categories/NSException+UMKSubclassResponsibility.h"; sourceTree = "<group>"; };
-		BC503AAFE9D037EADDC47024 /* Pods-TWTValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation.release.xcconfig"; sourceTree = "<group>"; };
-		BD01BFBFCBA2D9FD93C1EA09 /* Pods-libTWTValidation-URLMock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libTWTValidation-URLMock-Private.xcconfig"; path = "../Pods-libTWTValidation-URLMock/Pods-libTWTValidation-URLMock-Private.xcconfig"; sourceTree = "<group>"; };
-		BD88F1F15E4DF066CE6FBB17 /* UMKURLEncodedParameterStringParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKURLEncodedParameterStringParser.m; path = URLMock/Utilities/UMKURLEncodedParameterStringParser.m; sourceTree = "<group>"; };
-		BEE57377F1E0D8E996ABDA66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C55876C5BF831AA53C9B4CA7 /* Pods-libTWTValidation-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libTWTValidation-environment.h"; sourceTree = "<group>"; };
-		C6E6408268C58837B00138A5 /* Pods-TWTValidation-URLMock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation-URLMock.xcconfig"; sourceTree = "<group>"; };
-		C983E9B282141731BC992F55 /* Pods-TWTValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWTValidation-dummy.m"; sourceTree = "<group>"; };
-		CEE6C2F7DDB46EB39C9AA365 /* Pods-libTWTValidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libTWTValidation.debug.xcconfig"; sourceTree = "<group>"; };
-		D311B4EA87E324A4EF6B7C84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		D5BCD81BE96AC1ED0BD2A2CA /* Pods-TWTValidation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWTValidation-resources.sh"; sourceTree = "<group>"; };
-		D8B40793AF27B876621D1159 /* Pods-libTWTValidation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libTWTValidation-resources.sh"; sourceTree = "<group>"; };
-		D9ED6FA58C74245A81E5F2C4 /* Pods-TWTValidation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWTValidation-acknowledgements.plist"; sourceTree = "<group>"; };
-		DC6C0AED109C4D853CD30B27 /* UMKMessageCountingProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKMessageCountingProxy.h; path = URLMock/Utilities/UMKMessageCountingProxy.h; sourceTree = "<group>"; };
-		E192FFF63BD24C3AC9E77913 /* NSDictionary+UMKURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+UMKURLEncoding.h"; path = "URLMock/Categories/NSDictionary+UMKURLEncoding.h"; sourceTree = "<group>"; };
-		EA8C3A41E9EDBF86020E2ADA /* NSURL+UMKQueryParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+UMKQueryParameters.m"; path = "URLMock/Categories/NSURL+UMKQueryParameters.m"; sourceTree = "<group>"; };
-		F01676B350EB7B93055FC91D /* Pods-TWTValidation-iOS-URLMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-TWTValidation-iOS-URLMock-dummy.m"; path = "../Pods-TWTValidation-iOS-URLMock/Pods-TWTValidation-iOS-URLMock-dummy.m"; sourceTree = "<group>"; };
-		F4B213A50D43099A3FB07C1D /* libPods-TWTValidation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWTValidation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA9A036182C93C494690FC10 /* UMKParameterPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKParameterPair.m; path = URLMock/Utilities/UMKParameterPair.m; sourceTree = "<group>"; };
+		005E829C0C40E960BE60BDC36DE1D801 /* NSDictionary+UMKURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+UMKURLEncoding.h"; path = "URLMock/Categories/NSDictionary+UMKURLEncoding.h"; sourceTree = "<group>"; };
+		02D62B5AE0EE6D3D276F1F3457F83883 /* UMKURLEncodedParameterStringParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKURLEncodedParameterStringParser.h; path = URLMock/Utilities/UMKURLEncodedParameterStringParser.h; sourceTree = "<group>"; };
+		068587EC84A5AB584EF5FB86D321CEBE /* Pods-SKValidationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKValidationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		076A97CA7C9E032CFF5CE989A1A726BE /* Pods-SKValidationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKValidationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		09859EF6DACDA366DED77F4BF34CFF86 /* NSDictionary+UMKURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+UMKURLEncoding.m"; path = "URLMock/Categories/NSDictionary+UMKURLEncoding.m"; sourceTree = "<group>"; };
+		0A37DBE5B22A2828350EBA5F2A7872D7 /* Pods-TWTValidation-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWTValidation-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C82E8F2EB59149BE92BE4393A344819 /* URLMock-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URLMock-iOS-prefix.pch"; sourceTree = "<group>"; };
+		0EE4AF3F07453BAFB32C50AA14D51EA6 /* Pods-SKValidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKValidation.debug.xcconfig"; sourceTree = "<group>"; };
+		0F10A378D382B151076A847D69B624CF /* Pods-TWTValidationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWTValidationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F47A2CDD99015F21BA442632FDAEC5E /* Pods-TWTValidation-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		11A65DD5C7EEFBFD158DC59C6F8282AE /* libPods-SKValidation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SKValidation.a"; path = "libPods-SKValidation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A1DAF3AD1495560B8B577FEB15350B /* UMKURLEncodedParameterStringParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKURLEncodedParameterStringParser.m; path = URLMock/Utilities/UMKURLEncodedParameterStringParser.m; sourceTree = "<group>"; };
+		1C4D63145AC29F3D8479BA85B6C6D65B /* UMKMessageCountingProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKMessageCountingProxy.m; path = URLMock/Utilities/UMKMessageCountingProxy.m; sourceTree = "<group>"; };
+		1FE7ED2BA11719383A23E188C055A2D1 /* libURLMock-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libURLMock-iOS.a"; path = "libURLMock-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23324AFC2B8C9CD571730A7320192628 /* Pods-TWTValidation-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		25721D2928DD4F098CB78CE27124C107 /* UMKTestUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKTestUtilities.m; path = URLMock/Utilities/UMKTestUtilities.m; sourceTree = "<group>"; };
+		29EBF5E25BC0515AEC274999DB833D06 /* Pods-libTWTValidation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libTWTValidation-acknowledgements.plist"; sourceTree = "<group>"; };
+		3353763371970F754783EE26F644034A /* URLMock-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "URLMock-macOS-dummy.m"; path = "../URLMock-macOS/URLMock-macOS-dummy.m"; sourceTree = "<group>"; };
+		3607E090CA20D0B1EFC5BF5D2F5F7C92 /* Pods-TWTValidation-iOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWTValidation-iOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DA7128F5BEC13A0C06A390419413D96 /* Pods-TWTValidation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWTValidation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4021AC31194EB3A7659AADEFA75809ED /* Pods-libTWTValidationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libTWTValidationTests.release.xcconfig"; sourceTree = "<group>"; };
+		417805F0F4AFF77051874930C9F9C029 /* libPods-TWTValidationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TWTValidationTests.a"; path = "libPods-TWTValidationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4505064B95FD27B40F0724235461B47A /* Pods-TWTValidationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWTValidationTests-dummy.m"; sourceTree = "<group>"; };
+		4659D93C9BBA86372195279AEA662B3C /* Pods-TWTValidationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46FFE565914B758F92DEB6912C6F8551 /* Pods-SKValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKValidation.release.xcconfig"; sourceTree = "<group>"; };
+		47C0FED03B8F00256BB036C745BF6401 /* UMKErrorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKErrorUtilities.h; path = URLMock/Utilities/UMKErrorUtilities.h; sourceTree = "<group>"; };
+		4824CEF5A8E92D29BB59A00F45D09C71 /* Pods-SKValidationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKValidationTests.release.xcconfig"; sourceTree = "<group>"; };
+		5274AF82876C082F7F4CF341AEB4BF72 /* Pods-libTWTValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libTWTValidation-dummy.m"; sourceTree = "<group>"; };
+		55510ABF77B5ADC4A421ECB6985E571C /* URLMock-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "URLMock-macOS.xcconfig"; path = "../URLMock-macOS/URLMock-macOS.xcconfig"; sourceTree = "<group>"; };
+		577D1C078E165CFAC9705E51C1D6C713 /* Pods-TWTValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWTValidation-dummy.m"; sourceTree = "<group>"; };
+		584772FD3DCCED9BEB96B01A7C5AC377 /* Pods-SKValidation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKValidation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60BF7B5B13E410516539AE008446298E /* Pods-TWTValidation-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWTValidation-iOS-dummy.m"; sourceTree = "<group>"; };
+		61DCCB062AAE25F5C0AB98168EF5D725 /* UMKTestUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKTestUtilities.h; path = URLMock/Utilities/UMKTestUtilities.h; sourceTree = "<group>"; };
+		63D3533A00F8B32B940C272605D9CD36 /* UMKMessageCountingProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKMessageCountingProxy.h; path = URLMock/Utilities/UMKMessageCountingProxy.h; sourceTree = "<group>"; };
+		65AE9B0E2601CD8BF206AA06CC7B567E /* Pods-libTWTValidationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libTWTValidationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C573A9955323FBCC414A66734436390 /* NSException+UMKSubclassResponsibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+UMKSubclassResponsibility.h"; path = "URLMock/Categories/NSException+UMKSubclassResponsibility.h"; sourceTree = "<group>"; };
+		6C89072A50A6BB4C737AF47A45BA8E11 /* UMKParameterPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMKParameterPair.h; path = URLMock/Utilities/UMKParameterPair.h; sourceTree = "<group>"; };
+		70CB669B9840296B2B88803CB1DC4275 /* NSURL+UMKQueryParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+UMKQueryParameters.h"; path = "URLMock/Categories/NSURL+UMKQueryParameters.h"; sourceTree = "<group>"; };
+		7114EB4989C34361274589C5B71069AB /* libPods-TWTValidation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TWTValidation.a"; path = "libPods-TWTValidation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7382C1901A998C19D8A1DE91038CB72C /* Pods-TWTValidation-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWTValidation-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F6FDED9FC850C8FB3D02F4C76FEBB22 /* URLMock-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "URLMock-macOS-prefix.pch"; path = "../URLMock-macOS/URLMock-macOS-prefix.pch"; sourceTree = "<group>"; };
+		84BEB3509304D95D0E19827230D17DBE /* libURLMock-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libURLMock-macOS.a"; path = "libURLMock-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85200DEF0DBDDE85CF4D5A1B83031460 /* Pods-TWTValidation-iOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWTValidation-iOSTests-dummy.m"; sourceTree = "<group>"; };
+		853029ACD3C68893FC62767034C0A27B /* Pods-libTWTValidation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libTWTValidation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		857429BF57A89668EF70A42052D5279B /* NSURL+UMKQueryParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+UMKQueryParameters.m"; path = "URLMock/Categories/NSURL+UMKQueryParameters.m"; sourceTree = "<group>"; };
+		8AABE4833DBC50F0C219E110D5CCB5AE /* Pods-libTWTValidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libTWTValidation.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE5091A0B7E50834C015FF0B838035B /* Pods-SKValidation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKValidation-acknowledgements.plist"; sourceTree = "<group>"; };
+		9325DE47091BA5BF0C9D528B11C76EA8 /* Pods-TWTValidation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWTValidation-acknowledgements.plist"; sourceTree = "<group>"; };
+		94CFE21DF7C1A80C2D61D257A4F2476C /* Pods-libTWTValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libTWTValidation.release.xcconfig"; sourceTree = "<group>"; };
+		9659ADCF046EEFFBD479B2869A61B746 /* Pods-TWTValidationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWTValidationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D991EF574259BD20C3A926B25F3BAF1 /* UMKErrorUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKErrorUtilities.m; path = URLMock/Utilities/UMKErrorUtilities.m; sourceTree = "<group>"; };
+		B342123779E65BF8E9E92AE7E3E29DFE /* Pods-TWTValidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation.debug.xcconfig"; sourceTree = "<group>"; };
+		B733B0CBD657FB3CE799016754A9279B /* Pods-TWTValidation-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		BDEC46A8333F6690DC7ADF346517A8C3 /* Pods-SKValidationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKValidationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C48EEFAE6833FF6BDA38C04BB64ACD25 /* Pods-libTWTValidationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libTWTValidationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C90ACEA3F66F3E62F70574F2FC68E0B3 /* libPods-TWTValidation-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TWTValidation-iOS.a"; path = "libPods-TWTValidation-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABC8F93FAEF0EBB9C445F45711B17F6 /* Pods-TWTValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation.release.xcconfig"; sourceTree = "<group>"; };
+		D1AE96CDDD09A9CA4924A622CCCDE2DE /* Pods-TWTValidation-iOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWTValidation-iOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1F99721B3E9902000282FE78098EA46 /* NSException+UMKSubclassResponsibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+UMKSubclassResponsibility.m"; path = "URLMock/Categories/NSException+UMKSubclassResponsibility.m"; sourceTree = "<group>"; };
+		D647674A7C537774774E497DFF1E863A /* libPods-SKValidationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SKValidationTests.a"; path = "libPods-SKValidationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F0600944B0B714C0011A58236B7084 /* Pods-SKValidationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKValidationTests-dummy.m"; sourceTree = "<group>"; };
+		DBD71A0727B796A5FBF51991C6707014 /* Pods-TWTValidationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidationTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF1C26DEB237C168A8F34844141004E5 /* URLMock-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "URLMock-iOS-dummy.m"; sourceTree = "<group>"; };
+		E25FEDC76902BA7EAAEBD25CC74457CF /* Pods-libTWTValidationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libTWTValidationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E26C721903E62EC873B5AF3142EAE9C1 /* Pods-TWTValidation-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWTValidation-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3938D348C2A04839388AA08D47D7A31 /* UMKParameterPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMKParameterPair.m; path = URLMock/Utilities/UMKParameterPair.m; sourceTree = "<group>"; };
+		E6291F931A0C270BA6163FB9D405E5CD /* libPods-TWTValidation-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TWTValidation-iOSTests.a"; path = "libPods-TWTValidation-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED19D91C2CECD4C88AC323E6D8F9650D /* Pods-SKValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKValidation-dummy.m"; sourceTree = "<group>"; };
+		ED2D3660684F7B41B529D0764E0D42DE /* URLMock-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "URLMock-iOS.xcconfig"; sourceTree = "<group>"; };
+		F347F0C2D630C7E521044900A1FD5C1E /* Pods-libTWTValidationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libTWTValidationTests-dummy.m"; sourceTree = "<group>"; };
+		F985EAEB9D3CED1BD132E88294B25514 /* libPods-libTWTValidationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-libTWTValidationTests.a"; path = "libPods-libTWTValidationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2D3AE50473DA31CC6ADF254AD90A31 /* libPods-libTWTValidation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-libTWTValidation.a"; path = "libPods-libTWTValidation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56F6C3A6AFE93DDE5E8BF5A0 /* Frameworks */ = {
+		0EEAF18A42FED34B0044AF22AF9D99F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0757D82EA87762CD21C2E5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE779CD0B127E8CA81405A4 /* Frameworks */ = {
+		38662018954CF4B4ED1050B6C57C16E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87FB936B474F384E35DFB6D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77E0DE55F8410F79B07700C4 /* Frameworks */ = {
+		4FFB6FD1A27415AA4261CB93AD3F60F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D559494DB69CAF4A625C990 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B5763859D372DC6D4B44051 /* Frameworks */ = {
+		662400D4E35BFC97986D66824149BF08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ECE2E5F36AB2932B2EFA115 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEF532B22E7947461D82B8B9 /* Frameworks */ = {
+		8187BDAA1C0A914E78936AD72B4E9029 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8339A54C0CEA0E2F770D86A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F695EE5807200525FEF7B4E7 /* Frameworks */ = {
+		8A23825E2EA651673FAAF1BE9142A0B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32F511DB90D24F467A8DEC80 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5A659A7E7616CBD51CA2203D5B78AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF712411D39C8640F3F2EFDB95371E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85A194C0C98B941C87973BE6D9B6EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72C2FD720F037EF48762324F19602B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BF8ABB1E9212842AE960F16 /* Pods-TWTValidation */ = {
+		08DD942BF4CA2942BF0D5B115C44B809 /* SubclassResponsibility */ = {
 			isa = PBXGroup;
 			children = (
-				3143786264414FF192AD9836 /* Pods-TWTValidation-acknowledgements.markdown */,
-				D9ED6FA58C74245A81E5F2C4 /* Pods-TWTValidation-acknowledgements.plist */,
-				C983E9B282141731BC992F55 /* Pods-TWTValidation-dummy.m */,
-				B138F6389BE7EF6B8C361F8A /* Pods-TWTValidation-environment.h */,
-				D5BCD81BE96AC1ED0BD2A2CA /* Pods-TWTValidation-resources.sh */,
-				46FE94C474203A00D354FAFA /* Pods-TWTValidation.debug.xcconfig */,
-				BC503AAFE9D037EADDC47024 /* Pods-TWTValidation.release.xcconfig */,
-			);
-			name = "Pods-TWTValidation";
-			path = "Target Support Files/Pods-TWTValidation";
-			sourceTree = "<group>";
-		};
-		472DC3945208D511A4E01C0D /* SubclassResponsibility */ = {
-			isa = PBXGroup;
-			children = (
-				B888F8215C9B50C5F3E2E158 /* NSException+UMKSubclassResponsibility.h */,
-				9DDA15DB8D1588A469F22769 /* NSException+UMKSubclassResponsibility.m */,
+				6C573A9955323FBCC414A66734436390 /* NSException+UMKSubclassResponsibility.h */,
+				D1F99721B3E9902000282FE78098EA46 /* NSException+UMKSubclassResponsibility.m */,
 			);
 			name = SubclassResponsibility;
 			sourceTree = "<group>";
 		};
-		5CD91850A82D1FE9E8389845 /* Pods */ = {
+		0ED8CCD75C424B798AA807F09A927D1B /* Pods-TWTValidationTests */ = {
 			isa = PBXGroup;
 			children = (
-				5FF07EA1EE2A0EAA88E7073B /* URLMock */,
+				9659ADCF046EEFFBD479B2869A61B746 /* Pods-TWTValidationTests-acknowledgements.markdown */,
+				0F10A378D382B151076A847D69B624CF /* Pods-TWTValidationTests-acknowledgements.plist */,
+				4505064B95FD27B40F0724235461B47A /* Pods-TWTValidationTests-dummy.m */,
+				4659D93C9BBA86372195279AEA662B3C /* Pods-TWTValidationTests.debug.xcconfig */,
+				DBD71A0727B796A5FBF51991C6707014 /* Pods-TWTValidationTests.release.xcconfig */,
+			);
+			name = "Pods-TWTValidationTests";
+			path = "Target Support Files/Pods-TWTValidationTests";
+			sourceTree = "<group>";
+		};
+		2AEE8ABE175016824024C101E481D692 /* Pods-SKValidation */ = {
+			isa = PBXGroup;
+			children = (
+				584772FD3DCCED9BEB96B01A7C5AC377 /* Pods-SKValidation-acknowledgements.markdown */,
+				8CE5091A0B7E50834C015FF0B838035B /* Pods-SKValidation-acknowledgements.plist */,
+				ED19D91C2CECD4C88AC323E6D8F9650D /* Pods-SKValidation-dummy.m */,
+				0EE4AF3F07453BAFB32C50AA14D51EA6 /* Pods-SKValidation.debug.xcconfig */,
+				46FFE565914B758F92DEB6912C6F8551 /* Pods-SKValidation.release.xcconfig */,
+			);
+			name = "Pods-SKValidation";
+			path = "Target Support Files/Pods-SKValidation";
+			sourceTree = "<group>";
+		};
+		48519BEED588F89A2D15F17CD6983060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D3AE50473DA31CC6ADF254AD90A31 /* libPods-libTWTValidation.a */,
+				F985EAEB9D3CED1BD132E88294B25514 /* libPods-libTWTValidationTests.a */,
+				11A65DD5C7EEFBFD158DC59C6F8282AE /* libPods-SKValidation.a */,
+				D647674A7C537774774E497DFF1E863A /* libPods-SKValidationTests.a */,
+				7114EB4989C34361274589C5B71069AB /* libPods-TWTValidation.a */,
+				C90ACEA3F66F3E62F70574F2FC68E0B3 /* libPods-TWTValidation-iOS.a */,
+				E6291F931A0C270BA6163FB9D405E5CD /* libPods-TWTValidation-iOSTests.a */,
+				417805F0F4AFF77051874930C9F9C029 /* libPods-TWTValidationTests.a */,
+				1FE7ED2BA11719383A23E188C055A2D1 /* libURLMock-iOS.a */,
+				84BEB3509304D95D0E19827230D17DBE /* libURLMock-macOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64EEC82DDEDE2F554AB08464CD0FA42B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B198368DEE3E6AEF97B2C58FF1246C12 /* Pods-libTWTValidation */,
+				DF69BB4C6C12C1B123AFD3B4CEE18CEF /* Pods-libTWTValidationTests */,
+				2AEE8ABE175016824024C101E481D692 /* Pods-SKValidation */,
+				C3A637CD48584F7A95E652506A27B0EF /* Pods-SKValidationTests */,
+				CC12509A485C1AC0EDAB614F47B4EDD8 /* Pods-TWTValidation */,
+				AB2A4D8EECF239A37852EFD2EE187457 /* Pods-TWTValidation-iOS */,
+				6F77BF6ED3F564B340A42CB41D087160 /* Pods-TWTValidation-iOSTests */,
+				0ED8CCD75C424B798AA807F09A927D1B /* Pods-TWTValidationTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6F77BF6ED3F564B340A42CB41D087160 /* Pods-TWTValidation-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1AE96CDDD09A9CA4924A622CCCDE2DE /* Pods-TWTValidation-iOSTests-acknowledgements.markdown */,
+				3607E090CA20D0B1EFC5BF5D2F5F7C92 /* Pods-TWTValidation-iOSTests-acknowledgements.plist */,
+				85200DEF0DBDDE85CF4D5A1B83031460 /* Pods-TWTValidation-iOSTests-dummy.m */,
+				E26C721903E62EC873B5AF3142EAE9C1 /* Pods-TWTValidation-iOSTests.debug.xcconfig */,
+				0F47A2CDD99015F21BA442632FDAEC5E /* Pods-TWTValidation-iOSTests.release.xcconfig */,
+			);
+			name = "Pods-TWTValidation-iOSTests";
+			path = "Target Support Files/Pods-TWTValidation-iOSTests";
+			sourceTree = "<group>";
+		};
+		760DF3E39E6F56EAEC213A045D128816 /* URLMock */ = {
+			isa = PBXGroup;
+			children = (
+				08DD942BF4CA2942BF0D5B115C44B809 /* SubclassResponsibility */,
+				C50FA288FFD0D39F1CC6C8D95BDE9C41 /* Support Files */,
+				F15D2E6F44441CE060DEB1D7A2EEDA9A /* TestHelpers */,
+			);
+			name = URLMock;
+			path = URLMock;
+			sourceTree = "<group>";
+		};
+		7C7E444AF4684DFA04DAAD6F36BE87C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				760DF3E39E6F56EAEC213A045D128816 /* URLMock */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5FF07EA1EE2A0EAA88E7073B /* URLMock */ = {
+		AB2A4D8EECF239A37852EFD2EE187457 /* Pods-TWTValidation-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				472DC3945208D511A4E01C0D /* SubclassResponsibility */,
-				7AAC5DDFC44E6B1A66CE6502 /* Support Files */,
-				A1FFFE82092887272DDF31B2 /* TestHelpers */,
-			);
-			path = URLMock;
-			sourceTree = "<group>";
-		};
-		7AAC5DDFC44E6B1A66CE6502 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6E6408268C58837B00138A5 /* Pods-TWTValidation-URLMock.xcconfig */,
-				781BCA217C5050C97160626F /* Pods-TWTValidation-URLMock-Private.xcconfig */,
-				9FCEC696A84528D72C8E22C3 /* Pods-TWTValidation-URLMock-dummy.m */,
-				19855A7AD85BE05F56AF329B /* Pods-TWTValidation-URLMock-prefix.pch */,
-				4404125E40D751FDA5B5FA53 /* Pods-TWTValidation-iOS-URLMock.xcconfig */,
-				27CD135E8D41180982F7AEA3 /* Pods-TWTValidation-iOS-URLMock-Private.xcconfig */,
-				F01676B350EB7B93055FC91D /* Pods-TWTValidation-iOS-URLMock-dummy.m */,
-				116A80FE5E74EAF9552A6B52 /* Pods-TWTValidation-iOS-URLMock-prefix.pch */,
-				410E2DB971CA33CFDD382138 /* Pods-libTWTValidation-URLMock.xcconfig */,
-				BD01BFBFCBA2D9FD93C1EA09 /* Pods-libTWTValidation-URLMock-Private.xcconfig */,
-				B08E166EFFC768106E5B3296 /* Pods-libTWTValidation-URLMock-dummy.m */,
-				02C7B33ACF4134615CB0D154 /* Pods-libTWTValidation-URLMock-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-TWTValidation-URLMock";
-			sourceTree = "<group>";
-		};
-		81EEE2F59ADF20819EE9A588 = {
-			isa = PBXGroup;
-			children = (
-				597D404AED7C2855EE05B807 /* Podfile */,
-				EBCF137389CF12050D2456A2 /* Frameworks */,
-				5CD91850A82D1FE9E8389845 /* Pods */,
-				92FE27B02F73AAF740D48146 /* Products */,
-				94AD0C127C2EA16EE331EE3F /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8F8AEA31032B7EE5ABC6FE30 /* Pods-TWTValidation-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3DA36D2080E7617F58095BAE /* Pods-TWTValidation-iOS-acknowledgements.markdown */,
-				5A1ADD071891C18C7EAB71E4 /* Pods-TWTValidation-iOS-acknowledgements.plist */,
-				3355B370A2DFEA5C3015ED33 /* Pods-TWTValidation-iOS-dummy.m */,
-				8EDB59834123520F00608988 /* Pods-TWTValidation-iOS-environment.h */,
-				63FAE9B1A2500931C0B3004F /* Pods-TWTValidation-iOS-resources.sh */,
-				4C60132BC3C87FD5ED742DCF /* Pods-TWTValidation-iOS.debug.xcconfig */,
-				152B859C735AFD22BB3F1BB4 /* Pods-TWTValidation-iOS.release.xcconfig */,
+				7382C1901A998C19D8A1DE91038CB72C /* Pods-TWTValidation-iOS-acknowledgements.markdown */,
+				0A37DBE5B22A2828350EBA5F2A7872D7 /* Pods-TWTValidation-iOS-acknowledgements.plist */,
+				60BF7B5B13E410516539AE008446298E /* Pods-TWTValidation-iOS-dummy.m */,
+				23324AFC2B8C9CD571730A7320192628 /* Pods-TWTValidation-iOS.debug.xcconfig */,
+				B733B0CBD657FB3CE799016754A9279B /* Pods-TWTValidation-iOS.release.xcconfig */,
 			);
 			name = "Pods-TWTValidation-iOS";
 			path = "Target Support Files/Pods-TWTValidation-iOS";
 			sourceTree = "<group>";
 		};
-		92FE27B02F73AAF740D48146 /* Products */ = {
+		B198368DEE3E6AEF97B2C58FF1246C12 /* Pods-libTWTValidation */ = {
 			isa = PBXGroup;
 			children = (
-				F4B213A50D43099A3FB07C1D /* libPods-TWTValidation.a */,
-				ADE20896BFB465C692F07A1A /* libPods-TWTValidation-URLMock.a */,
-				285DDAB6580032C147CDFBDA /* libPods-TWTValidation-iOS.a */,
-				509CC319F1FB39A5B8313CDD /* libPods-TWTValidation-iOS-URLMock.a */,
-				5455A02883583BD68C9C86A5 /* libPods-libTWTValidation.a */,
-				92018881BF20422D0272E559 /* libPods-libTWTValidation-URLMock.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		94AD0C127C2EA16EE331EE3F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1BF8ABB1E9212842AE960F16 /* Pods-TWTValidation */,
-				8F8AEA31032B7EE5ABC6FE30 /* Pods-TWTValidation-iOS */,
-				A929DE8C1B70F6E63CF0424E /* Pods-libTWTValidation */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A1FFFE82092887272DDF31B2 /* TestHelpers */ = {
-			isa = PBXGroup;
-			children = (
-				E192FFF63BD24C3AC9E77913 /* NSDictionary+UMKURLEncoding.h */,
-				9C5866A86CDAE92BE139BE82 /* NSDictionary+UMKURLEncoding.m */,
-				02715291720F357AD19996E3 /* NSURL+UMKQueryParameters.h */,
-				EA8C3A41E9EDBF86020E2ADA /* NSURL+UMKQueryParameters.m */,
-				50C9109177353005CDDADA4D /* UMKErrorUtilities.h */,
-				957677C429BA9D769B72FF6E /* UMKErrorUtilities.m */,
-				DC6C0AED109C4D853CD30B27 /* UMKMessageCountingProxy.h */,
-				43F3F79DCF4042075BC0257F /* UMKMessageCountingProxy.m */,
-				7B0AD25186ADD75ABBFF3C4E /* UMKParameterPair.h */,
-				FA9A036182C93C494690FC10 /* UMKParameterPair.m */,
-				8C15991114ECCA3E7577FBB5 /* UMKTestUtilities.h */,
-				039E51A62A5EA221FB22E93D /* UMKTestUtilities.m */,
-				951AE74A823ECD8C8D877D43 /* UMKURLEncodedParameterStringParser.h */,
-				BD88F1F15E4DF066CE6FBB17 /* UMKURLEncodedParameterStringParser.m */,
-			);
-			name = TestHelpers;
-			sourceTree = "<group>";
-		};
-		A929DE8C1B70F6E63CF0424E /* Pods-libTWTValidation */ = {
-			isa = PBXGroup;
-			children = (
-				93997CE4A3AE63C33517C0A3 /* Pods-libTWTValidation-acknowledgements.markdown */,
-				303DA43DC50ECFDAC5B0F07A /* Pods-libTWTValidation-acknowledgements.plist */,
-				A2AE37477E2AF8C0B041037E /* Pods-libTWTValidation-dummy.m */,
-				C55876C5BF831AA53C9B4CA7 /* Pods-libTWTValidation-environment.h */,
-				D8B40793AF27B876621D1159 /* Pods-libTWTValidation-resources.sh */,
-				CEE6C2F7DDB46EB39C9AA365 /* Pods-libTWTValidation.debug.xcconfig */,
-				6378B453FB5F91DEA1839902 /* Pods-libTWTValidation.release.xcconfig */,
+				853029ACD3C68893FC62767034C0A27B /* Pods-libTWTValidation-acknowledgements.markdown */,
+				29EBF5E25BC0515AEC274999DB833D06 /* Pods-libTWTValidation-acknowledgements.plist */,
+				5274AF82876C082F7F4CF341AEB4BF72 /* Pods-libTWTValidation-dummy.m */,
+				8AABE4833DBC50F0C219E110D5CCB5AE /* Pods-libTWTValidation.debug.xcconfig */,
+				94CFE21DF7C1A80C2D61D257A4F2476C /* Pods-libTWTValidation.release.xcconfig */,
 			);
 			name = "Pods-libTWTValidation";
 			path = "Target Support Files/Pods-libTWTValidation";
 			sourceTree = "<group>";
 		};
-		B98DD2C8A5FB22D5E4432FF7 /* OS X */ = {
+		C3A637CD48584F7A95E652506A27B0EF /* Pods-SKValidationTests */ = {
 			isa = PBXGroup;
 			children = (
-				D311B4EA87E324A4EF6B7C84 /* Cocoa.framework */,
+				068587EC84A5AB584EF5FB86D321CEBE /* Pods-SKValidationTests-acknowledgements.markdown */,
+				076A97CA7C9E032CFF5CE989A1A726BE /* Pods-SKValidationTests-acknowledgements.plist */,
+				D8F0600944B0B714C0011A58236B7084 /* Pods-SKValidationTests-dummy.m */,
+				BDEC46A8333F6690DC7ADF346517A8C3 /* Pods-SKValidationTests.debug.xcconfig */,
+				4824CEF5A8E92D29BB59A00F45D09C71 /* Pods-SKValidationTests.release.xcconfig */,
 			);
-			name = "OS X";
+			name = "Pods-SKValidationTests";
+			path = "Target Support Files/Pods-SKValidationTests";
 			sourceTree = "<group>";
 		};
-		EBCF137389CF12050D2456A2 /* Frameworks */ = {
+		C50FA288FFD0D39F1CC6C8D95BDE9C41 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B98DD2C8A5FB22D5E4432FF7 /* OS X */,
-				EC1A9A2826D6FDECFF639247 /* iOS */,
+				ED2D3660684F7B41B529D0764E0D42DE /* URLMock-iOS.xcconfig */,
+				DF1C26DEB237C168A8F34844141004E5 /* URLMock-iOS-dummy.m */,
+				0C82E8F2EB59149BE92BE4393A344819 /* URLMock-iOS-prefix.pch */,
+				55510ABF77B5ADC4A421ECB6985E571C /* URLMock-macOS.xcconfig */,
+				3353763371970F754783EE26F644034A /* URLMock-macOS-dummy.m */,
+				7F6FDED9FC850C8FB3D02F4C76FEBB22 /* URLMock-macOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/URLMock-iOS";
+			sourceTree = "<group>";
+		};
+		CC12509A485C1AC0EDAB614F47B4EDD8 /* Pods-TWTValidation */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7128F5BEC13A0C06A390419413D96 /* Pods-TWTValidation-acknowledgements.markdown */,
+				9325DE47091BA5BF0C9D528B11C76EA8 /* Pods-TWTValidation-acknowledgements.plist */,
+				577D1C078E165CFAC9705E51C1D6C713 /* Pods-TWTValidation-dummy.m */,
+				B342123779E65BF8E9E92AE7E3E29DFE /* Pods-TWTValidation.debug.xcconfig */,
+				CABC8F93FAEF0EBB9C445F45711B17F6 /* Pods-TWTValidation.release.xcconfig */,
+			);
+			name = "Pods-TWTValidation";
+			path = "Target Support Files/Pods-TWTValidation";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7C7E444AF4684DFA04DAAD6F36BE87C2 /* Pods */,
+				48519BEED588F89A2D15F17CD6983060 /* Products */,
+				64EEC82DDEDE2F554AB08464CD0FA42B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC1A9A2826D6FDECFF639247 /* iOS */ = {
+		DF69BB4C6C12C1B123AFD3B4CEE18CEF /* Pods-libTWTValidationTests */ = {
 			isa = PBXGroup;
 			children = (
-				BEE57377F1E0D8E996ABDA66 /* Foundation.framework */,
+				65AE9B0E2601CD8BF206AA06CC7B567E /* Pods-libTWTValidationTests-acknowledgements.markdown */,
+				E25FEDC76902BA7EAAEBD25CC74457CF /* Pods-libTWTValidationTests-acknowledgements.plist */,
+				F347F0C2D630C7E521044900A1FD5C1E /* Pods-libTWTValidationTests-dummy.m */,
+				C48EEFAE6833FF6BDA38C04BB64ACD25 /* Pods-libTWTValidationTests.debug.xcconfig */,
+				4021AC31194EB3A7659AADEFA75809ED /* Pods-libTWTValidationTests.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-libTWTValidationTests";
+			path = "Target Support Files/Pods-libTWTValidationTests";
+			sourceTree = "<group>";
+		};
+		F15D2E6F44441CE060DEB1D7A2EEDA9A /* TestHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				005E829C0C40E960BE60BDC36DE1D801 /* NSDictionary+UMKURLEncoding.h */,
+				09859EF6DACDA366DED77F4BF34CFF86 /* NSDictionary+UMKURLEncoding.m */,
+				70CB669B9840296B2B88803CB1DC4275 /* NSURL+UMKQueryParameters.h */,
+				857429BF57A89668EF70A42052D5279B /* NSURL+UMKQueryParameters.m */,
+				47C0FED03B8F00256BB036C745BF6401 /* UMKErrorUtilities.h */,
+				9D991EF574259BD20C3A926B25F3BAF1 /* UMKErrorUtilities.m */,
+				63D3533A00F8B32B940C272605D9CD36 /* UMKMessageCountingProxy.h */,
+				1C4D63145AC29F3D8479BA85B6C6D65B /* UMKMessageCountingProxy.m */,
+				6C89072A50A6BB4C737AF47A45BA8E11 /* UMKParameterPair.h */,
+				E3938D348C2A04839388AA08D47D7A31 /* UMKParameterPair.m */,
+				61DCCB062AAE25F5C0AB98168EF5D725 /* UMKTestUtilities.h */,
+				25721D2928DD4F098CB78CE27124C107 /* UMKTestUtilities.m */,
+				02D62B5AE0EE6D3D276F1F3457F83883 /* UMKURLEncodedParameterStringParser.h */,
+				17A1DAF3AD1495560B8B577FEB15350B /* UMKURLEncodedParameterStringParser.m */,
+			);
+			name = TestHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		13689B0672D24637FD8C4204 /* Headers */ = {
+		2A708B341D7BE30847C7CBA7D6C1E31C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				817F965327FF64BCD5D2C3AD /* NSDictionary+UMKURLEncoding.h in Headers */,
-				8A1D0E1CB3BE789268197C6E /* NSException+UMKSubclassResponsibility.h in Headers */,
-				9F6CC1667A70626FABC043E5 /* NSURL+UMKQueryParameters.h in Headers */,
-				C135D564F27ACE98D9DE2EC7 /* UMKErrorUtilities.h in Headers */,
-				C192DFA5EF20EE0F68BA0601 /* UMKMessageCountingProxy.h in Headers */,
-				31AE16C81594CF8531FBF1D1 /* UMKParameterPair.h in Headers */,
-				B8CE60304C77B942C57FFE5A /* UMKTestUtilities.h in Headers */,
-				6B2CDA4146C5770B553C8E8A /* UMKURLEncodedParameterStringParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67408D8B23AABA3555F34996 /* Headers */ = {
+		79E6C1DD00F5E710E6FDA82A61108939 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B88E4B24E1B4E89C6DEC7A /* NSDictionary+UMKURLEncoding.h in Headers */,
-				02889B316FC89E88CC87373E /* NSException+UMKSubclassResponsibility.h in Headers */,
-				AAFFAE3098D1C2159B5BDFE3 /* NSURL+UMKQueryParameters.h in Headers */,
-				ECFC39EB068D08C22FCF92E6 /* UMKErrorUtilities.h in Headers */,
-				413A3C933E607211591DA17A /* UMKMessageCountingProxy.h in Headers */,
-				7492E6C848A4A699F302D8B7 /* UMKParameterPair.h in Headers */,
-				0D0C87146EA5B071B0E69BD9 /* UMKTestUtilities.h in Headers */,
-				A2E732AB03F2127B17C06926 /* UMKURLEncodedParameterStringParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCD32CC5E631794CB272793B /* Headers */ = {
+		7F9897A12607F8798915F62855884F58 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93E7696188B3691838B76AB4 /* NSDictionary+UMKURLEncoding.h in Headers */,
-				6FA074B905DB0A035060A33D /* NSException+UMKSubclassResponsibility.h in Headers */,
-				B65DA3EA7DE98F8BB5160B9B /* NSURL+UMKQueryParameters.h in Headers */,
-				09860936863CD781E9E763CA /* UMKErrorUtilities.h in Headers */,
-				18DACF1E5F3C085903A14CDF /* UMKMessageCountingProxy.h in Headers */,
-				4CBD1A0A9837B8D8541FCFF2 /* UMKParameterPair.h in Headers */,
-				02E2876D857C376C51ABC0FB /* UMKTestUtilities.h in Headers */,
-				C05D02041856DB4419C61BDF /* UMKURLEncodedParameterStringParser.h in Headers */,
+				F9EDC6DB5313E3B64D11DB3B1AC85797 /* NSDictionary+UMKURLEncoding.h in Headers */,
+				4BCE920CA89492800CEEEB5067B789F6 /* NSException+UMKSubclassResponsibility.h in Headers */,
+				DFE750168BD9CCF503C374548E9A3A59 /* NSURL+UMKQueryParameters.h in Headers */,
+				0F7041422C8D3C8C616480DA609DDC8B /* UMKErrorUtilities.h in Headers */,
+				0FCF5FB94AC67425DD885D6347CDFF51 /* UMKMessageCountingProxy.h in Headers */,
+				3B81FD5AC859712CF41213D9C4C1C5E8 /* UMKParameterPair.h in Headers */,
+				2BBD235ACBCDCAEF5B2912FDB61A2E97 /* UMKTestUtilities.h in Headers */,
+				F8FBE70FE44F2D77714C03999227F068 /* UMKURLEncodedParameterStringParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C5D232D6A23141258E50778BE91737 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4917A9421E8E237B4700F29B9492CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3CFF080832780367F49DB55607788B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18313A4A27525A101AC9F0F03D45C57A /* NSDictionary+UMKURLEncoding.h in Headers */,
+				99D20B02C9719C86114A2EB99557F453 /* NSException+UMKSubclassResponsibility.h in Headers */,
+				EBDEE151000CE2583D0E07A026C49400 /* NSURL+UMKQueryParameters.h in Headers */,
+				247392288F7A163DD14C643D5892B4C8 /* UMKErrorUtilities.h in Headers */,
+				7CC99C87EED3773B005FB871ADA65AA3 /* UMKMessageCountingProxy.h in Headers */,
+				BDAA8D444A8ACB98CA30CC4C10A6D5A7 /* UMKParameterPair.h in Headers */,
+				1D61039A21970A7AA784D58DBBA78738 /* UMKTestUtilities.h in Headers */,
+				A5A7FAF9511E7531D5FA2F3B66BACBA5 /* UMKURLEncodedParameterStringParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C154A296E40B2067FC87330F20AAB0E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5840D9A4122AE130B25A67F4EC2F0DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92779DB54345BCF7E4163443ED46E92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3C658CB3ADE976F3983D29EC206464 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		06AE54FA833267C98FDC08AF /* Pods-TWTValidation-URLMock */ = {
+		0625906CD682AED0F8044BF6C5E199C4 /* Pods-SKValidationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 815538278612AEA4BB03B4EC /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-URLMock" */;
+			buildConfigurationList = A81C4726B8E8422226D7CE0D7C04BF15 /* Build configuration list for PBXNativeTarget "Pods-SKValidationTests" */;
 			buildPhases = (
-				AD173CB6203C2B35E4185214 /* Sources */,
-				56F6C3A6AFE93DDE5E8BF5A0 /* Frameworks */,
-				67408D8B23AABA3555F34996 /* Headers */,
+				FC3C658CB3ADE976F3983D29EC206464 /* Headers */,
+				F06170C646AD6A9B1D746887EF07F615 /* Sources */,
+				8A23825E2EA651673FAAF1BE9142A0B8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7F85EDA91BF48E3F906AC23D1239C2CF /* PBXTargetDependency */,
 			);
-			name = "Pods-TWTValidation-URLMock";
-			productName = "Pods-TWTValidation-URLMock";
-			productReference = ADE20896BFB465C692F07A1A /* libPods-TWTValidation-URLMock.a */;
+			name = "Pods-SKValidationTests";
+			productName = "Pods-SKValidationTests";
+			productReference = D647674A7C537774774E497DFF1E863A /* libPods-SKValidationTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B6334354A44397C35D1FD72C /* Pods-libTWTValidation */ = {
+		308BB9FBD07892566AB6EA4C21168DFA /* Pods-TWTValidation-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4439370CA36F518412940AEA /* Build configuration list for PBXNativeTarget "Pods-libTWTValidation" */;
+			buildConfigurationList = 1675C3AC926C69D61A4B8BFBBF673B71 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-iOSTests" */;
 			buildPhases = (
-				E203C41F8C1528D291E3DC2F /* Sources */,
-				8B5763859D372DC6D4B44051 /* Frameworks */,
+				99C5D232D6A23141258E50778BE91737 /* Headers */,
+				B6B78126980461C9139C9C09AAA7D4B6 /* Sources */,
+				38662018954CF4B4ED1050B6C57C16E9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				95B1EA96CFA52CA175B2A447 /* PBXTargetDependency */,
+				A8C60C58371BAB10A942166980A3571E /* PBXTargetDependency */,
 			);
-			name = "Pods-libTWTValidation";
-			productName = "Pods-libTWTValidation";
-			productReference = 5455A02883583BD68C9C86A5 /* libPods-libTWTValidation.a */;
+			name = "Pods-TWTValidation-iOSTests";
+			productName = "Pods-TWTValidation-iOSTests";
+			productReference = E6291F931A0C270BA6163FB9D405E5CD /* libPods-TWTValidation-iOSTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C5C1521BAB0802232D7DEEF0 /* Pods-TWTValidation-iOS */ = {
+		38716E878B1036DF8390D7B6624A46FD /* Pods-TWTValidation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65B5B393A3DF41DD7C1DAFE6 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-iOS" */;
+			buildConfigurationList = F0B18E59AF267B33BA69B9A51CE752D5 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation" */;
 			buildPhases = (
-				D06C0F005B87E9CF1CFFA3C3 /* Sources */,
-				77E0DE55F8410F79B07700C4 /* Frameworks */,
+				D92779DB54345BCF7E4163443ED46E92 /* Headers */,
+				5C8840E858C602D88A06C74444A35A42 /* Sources */,
+				E85A194C0C98B941C87973BE6D9B6EE0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9CAC0650799DBAEAE7C762DC /* PBXTargetDependency */,
-			);
-			name = "Pods-TWTValidation-iOS";
-			productName = "Pods-TWTValidation-iOS";
-			productReference = 285DDAB6580032C147CDFBDA /* libPods-TWTValidation-iOS.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		C65EBA7B40F9A6AE3C673EDD /* Pods-TWTValidation-iOS-URLMock */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5FE0547D58927FF4A4D51390 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-iOS-URLMock" */;
-			buildPhases = (
-				DB094D17E0CE8AE8FFBA392E /* Sources */,
-				6EE779CD0B127E8CA81405A4 /* Frameworks */,
-				13689B0672D24637FD8C4204 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TWTValidation-iOS-URLMock";
-			productName = "Pods-TWTValidation-iOS-URLMock";
-			productReference = 509CC319F1FB39A5B8313CDD /* libPods-TWTValidation-iOS-URLMock.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CB1570FD5FDB5F2FD15ADD40 /* Pods-TWTValidation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75551D37A7B9108E327BBB59 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation" */;
-			buildPhases = (
-				C67A9E8B52DD92172EAC93F0 /* Sources */,
-				F695EE5807200525FEF7B4E7 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43345D4DF49B0C65DF872ABF /* PBXTargetDependency */,
+				13A65E3FDFC7CADB91D56C932A440F76 /* PBXTargetDependency */,
 			);
 			name = "Pods-TWTValidation";
 			productName = "Pods-TWTValidation";
-			productReference = F4B213A50D43099A3FB07C1D /* libPods-TWTValidation.a */;
+			productReference = 7114EB4989C34361274589C5B71069AB /* libPods-TWTValidation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D2C9BC39515725924AD66E92 /* Pods-libTWTValidation-URLMock */ = {
+		42BAEF2CD5E9C2BFD831A09FADADDEF1 /* Pods-libTWTValidationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3301843D45637AA6097647E6 /* Build configuration list for PBXNativeTarget "Pods-libTWTValidation-URLMock" */;
+			buildConfigurationList = B23998D3CC87B34591298E1552C01324 /* Build configuration list for PBXNativeTarget "Pods-libTWTValidationTests" */;
 			buildPhases = (
-				7EBED3DBBAF8223D865BA4A9 /* Sources */,
-				CEF532B22E7947461D82B8B9 /* Frameworks */,
-				DCD32CC5E631794CB272793B /* Headers */,
+				79E6C1DD00F5E710E6FDA82A61108939 /* Headers */,
+				DC6FA450AD65E49C6DF9A5097812B72C /* Sources */,
+				0EEAF18A42FED34B0044AF22AF9D99F6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F86D369D2553987AE7604E15582D451B /* PBXTargetDependency */,
+			);
+			name = "Pods-libTWTValidationTests";
+			productName = "Pods-libTWTValidationTests";
+			productReference = F985EAEB9D3CED1BD132E88294B25514 /* libPods-libTWTValidationTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		45C7F191D51E4A2F6F756E372F400CAE /* Pods-TWTValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF20BA6A398FAEF64ACA36CB738A678 /* Build configuration list for PBXNativeTarget "Pods-TWTValidationTests" */;
+			buildPhases = (
+				C154A296E40B2067FC87330F20AAB0E6 /* Headers */,
+				E69A65AFF88AFF0D310873AAAECEABE1 /* Sources */,
+				662400D4E35BFC97986D66824149BF08 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4719CF96475A7C511898EDA0C7089F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TWTValidationTests";
+			productName = "Pods-TWTValidationTests";
+			productReference = 417805F0F4AFF77051874930C9F9C029 /* libPods-TWTValidationTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		466E2C2C83006BA1BF2D640011749550 /* URLMock-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF88724ACE4DF36206196F36B63618E2 /* Build configuration list for PBXNativeTarget "URLMock-iOS" */;
+			buildPhases = (
+				BF3CFF080832780367F49DB55607788B /* Headers */,
+				005F784437996D1D3A77DDC538F9F3B4 /* Sources */,
+				4FFB6FD1A27415AA4261CB93AD3F60F0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-libTWTValidation-URLMock";
-			productName = "Pods-libTWTValidation-URLMock";
-			productReference = 92018881BF20422D0272E559 /* libPods-libTWTValidation-URLMock.a */;
+			name = "URLMock-iOS";
+			productName = "URLMock-iOS";
+			productReference = 1FE7ED2BA11719383A23E188C055A2D1 /* libURLMock-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5E4D51877EEB83C6C6BD5F2B79672211 /* URLMock-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55047662B04DC3F9581742856FC4C181 /* Build configuration list for PBXNativeTarget "URLMock-macOS" */;
+			buildPhases = (
+				7F9897A12607F8798915F62855884F58 /* Headers */,
+				1B4753DB2375C1D15650534DEB2FE9E1 /* Sources */,
+				F72C2FD720F037EF48762324F19602B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "URLMock-macOS";
+			productName = "URLMock-macOS";
+			productReference = 84BEB3509304D95D0E19827230D17DBE /* libURLMock-macOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6AD236F597EEDC2E26F78878DD10D45B /* Pods-TWTValidation-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0075F4C06F9304093CEB80FDCD68647E /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-iOS" */;
+			buildPhases = (
+				9B4917A9421E8E237B4700F29B9492CE /* Headers */,
+				6BDBA96C496BCCF11E817CA283C80263 /* Sources */,
+				8187BDAA1C0A914E78936AD72B4E9029 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F53D5EFD314FB33B7DB22E88A893B71 /* PBXTargetDependency */,
+			);
+			name = "Pods-TWTValidation-iOS";
+			productName = "Pods-TWTValidation-iOS";
+			productReference = C90ACEA3F66F3E62F70574F2FC68E0B3 /* libPods-TWTValidation-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F0000D32A2FD3159DA4DA59CF0FE301 /* Pods-SKValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BECE77DAD833C2A3AD77B9F08FB0AD3 /* Build configuration list for PBXNativeTarget "Pods-SKValidation" */;
+			buildPhases = (
+				2A708B341D7BE30847C7CBA7D6C1E31C /* Headers */,
+				95FDFE53303BB2156FB8B337437A3F97 /* Sources */,
+				CDF712411D39C8640F3F2EFDB95371E0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B810BB54748583E593F1BCD8F869DDF /* PBXTargetDependency */,
+			);
+			name = "Pods-SKValidation";
+			productName = "Pods-SKValidation";
+			productReference = 11A65DD5C7EEFBFD158DC59C6F8282AE /* libPods-SKValidation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C581B67B19E9A550C250AB4B422212ED /* Pods-libTWTValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2F853E87EF4CAD16929A1BBA54D340 /* Build configuration list for PBXNativeTarget "Pods-libTWTValidation" */;
+			buildPhases = (
+				C5840D9A4122AE130B25A67F4EC2F0DF /* Headers */,
+				6D8F654646895C88D5CD115114E02A5D /* Sources */,
+				8A5A659A7E7616CBD51CA2203D5B78AE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7692BE796B833D021BFC1D570EE976BA /* PBXTargetDependency */,
+			);
+			name = "Pods-libTWTValidation";
+			productName = "Pods-libTWTValidation";
+			productReference = FF2D3AE50473DA31CC6ADF254AD90A31 /* libPods-libTWTValidation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B20650CF75E5E4EBB68EFA74 /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 857E3BC69383867FD74350C6 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 81EEE2F59ADF20819EE9A588;
-			productRefGroup = 92FE27B02F73AAF740D48146 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 48519BEED588F89A2D15F17CD6983060 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB1570FD5FDB5F2FD15ADD40 /* Pods-TWTValidation */,
-				06AE54FA833267C98FDC08AF /* Pods-TWTValidation-URLMock */,
-				C5C1521BAB0802232D7DEEF0 /* Pods-TWTValidation-iOS */,
-				C65EBA7B40F9A6AE3C673EDD /* Pods-TWTValidation-iOS-URLMock */,
-				B6334354A44397C35D1FD72C /* Pods-libTWTValidation */,
-				D2C9BC39515725924AD66E92 /* Pods-libTWTValidation-URLMock */,
+				C581B67B19E9A550C250AB4B422212ED /* Pods-libTWTValidation */,
+				42BAEF2CD5E9C2BFD831A09FADADDEF1 /* Pods-libTWTValidationTests */,
+				9F0000D32A2FD3159DA4DA59CF0FE301 /* Pods-SKValidation */,
+				0625906CD682AED0F8044BF6C5E199C4 /* Pods-SKValidationTests */,
+				38716E878B1036DF8390D7B6624A46FD /* Pods-TWTValidation */,
+				6AD236F597EEDC2E26F78878DD10D45B /* Pods-TWTValidation-iOS */,
+				308BB9FBD07892566AB6EA4C21168DFA /* Pods-TWTValidation-iOSTests */,
+				45C7F191D51E4A2F6F756E372F400CAE /* Pods-TWTValidationTests */,
+				466E2C2C83006BA1BF2D640011749550 /* URLMock-iOS */,
+				5E4D51877EEB83C6C6BD5F2B79672211 /* URLMock-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7EBED3DBBAF8223D865BA4A9 /* Sources */ = {
+		005F784437996D1D3A77DDC538F9F3B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0309B2F3C171EF1E2D09A09D /* NSDictionary+UMKURLEncoding.m in Sources */,
-				41606C352D73523BB740ED76 /* NSException+UMKSubclassResponsibility.m in Sources */,
-				8A67AD166509B1152F850916 /* NSURL+UMKQueryParameters.m in Sources */,
-				30522CBEA4BA170D9530EC1D /* Pods-libTWTValidation-URLMock-dummy.m in Sources */,
-				068DE660CB1AA68914F5264F /* UMKErrorUtilities.m in Sources */,
-				4BA9686913FB96F6A63F59BE /* UMKMessageCountingProxy.m in Sources */,
-				87808751362C315C5B172513 /* UMKParameterPair.m in Sources */,
-				FB63CB0482C356660D1D01DD /* UMKTestUtilities.m in Sources */,
-				839C7841088E6100A4B9866E /* UMKURLEncodedParameterStringParser.m in Sources */,
+				303B707F5D5097BED4601CEC366E3FA5 /* NSDictionary+UMKURLEncoding.m in Sources */,
+				E25B533DC6432DD2B4B195FAF5EEB8E8 /* NSException+UMKSubclassResponsibility.m in Sources */,
+				1744FDA04E98731F2A1EFF4E88EEF186 /* NSURL+UMKQueryParameters.m in Sources */,
+				90D40531F6A875C4FA2AFB4EAC694C52 /* UMKErrorUtilities.m in Sources */,
+				A73E0E794DBFEABB11401DE39EF5F2CD /* UMKMessageCountingProxy.m in Sources */,
+				E5CCEE33FAC8D54154B000A57ABC05FA /* UMKParameterPair.m in Sources */,
+				9A842DE35DDFBA95D23B6C1C4A70410B /* UMKTestUtilities.m in Sources */,
+				96B1634627B09671FB2A806DF9742B3B /* UMKURLEncodedParameterStringParser.m in Sources */,
+				C67F66014D7BD9BB29640515270C4C1E /* URLMock-iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD173CB6203C2B35E4185214 /* Sources */ = {
+		1B4753DB2375C1D15650534DEB2FE9E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26ADB2FF1DEA3D9544CFC5E /* NSDictionary+UMKURLEncoding.m in Sources */,
-				D135560265B6AC10839D69FA /* NSException+UMKSubclassResponsibility.m in Sources */,
-				7C8A0D73EB7319959BC7463B /* NSURL+UMKQueryParameters.m in Sources */,
-				659E7970618257304D004333 /* Pods-TWTValidation-URLMock-dummy.m in Sources */,
-				49D8C22D33B04FFE72778F09 /* UMKErrorUtilities.m in Sources */,
-				E29EA8A1DA0CB00C795F7E54 /* UMKMessageCountingProxy.m in Sources */,
-				3136E210A25DF80D42921E14 /* UMKParameterPair.m in Sources */,
-				322A438299CC019BACCADB2D /* UMKTestUtilities.m in Sources */,
-				8EA125930F97F24546277017 /* UMKURLEncodedParameterStringParser.m in Sources */,
+				BE04BD9745D2F31C0AB365441EA1B2BA /* NSDictionary+UMKURLEncoding.m in Sources */,
+				A04F2C1355102BC749896074ED4D45B1 /* NSException+UMKSubclassResponsibility.m in Sources */,
+				DEF226771CA260850EF2B0F483196E6B /* NSURL+UMKQueryParameters.m in Sources */,
+				44BA0D5A49466321C38F64ED3EB4A856 /* UMKErrorUtilities.m in Sources */,
+				7F5C31FADD34E7DD22FCB2FBE29C7E74 /* UMKMessageCountingProxy.m in Sources */,
+				8DA9D002435246AFA1FB7E2207F6CD21 /* UMKParameterPair.m in Sources */,
+				1A0A41824434907C7015B3D5405BC096 /* UMKTestUtilities.m in Sources */,
+				BCCD27EB34EFCD1B948EAF2C88E577EB /* UMKURLEncodedParameterStringParser.m in Sources */,
+				3B5DB6338D00BCC5BC53B7F382E0ED52 /* URLMock-macOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C67A9E8B52DD92172EAC93F0 /* Sources */ = {
+		5C8840E858C602D88A06C74444A35A42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A36749D30472EE0F4B1409A /* Pods-TWTValidation-dummy.m in Sources */,
+				F62218175387C92A1930A5B2FAA21757 /* Pods-TWTValidation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D06C0F005B87E9CF1CFFA3C3 /* Sources */ = {
+		6BDBA96C496BCCF11E817CA283C80263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D3E13C9D59C11FD4DAC32A /* Pods-TWTValidation-iOS-dummy.m in Sources */,
+				93F89C65CE1DCA3EF734B9B0FAA60485 /* Pods-TWTValidation-iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB094D17E0CE8AE8FFBA392E /* Sources */ = {
+		6D8F654646895C88D5CD115114E02A5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2129BFDB82D75EEAA68D3D6D /* NSDictionary+UMKURLEncoding.m in Sources */,
-				249B6174DB51599E0BDD904F /* NSException+UMKSubclassResponsibility.m in Sources */,
-				9E78A2B935871A24E61A9BD5 /* NSURL+UMKQueryParameters.m in Sources */,
-				D422137BEEF67F73FE96071D /* Pods-TWTValidation-iOS-URLMock-dummy.m in Sources */,
-				A1BDAE1BFBDE207816031FB8 /* UMKErrorUtilities.m in Sources */,
-				B0495CAAA87167815A7BD22A /* UMKMessageCountingProxy.m in Sources */,
-				7C840D9E96584D69D0DB1364 /* UMKParameterPair.m in Sources */,
-				B98D477987CF6F75F3169CA9 /* UMKTestUtilities.m in Sources */,
-				2658F586B25D9EB09742453C /* UMKURLEncodedParameterStringParser.m in Sources */,
+				80E5CDAD2EEE3D0D56C3F797445B952A /* Pods-libTWTValidation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E203C41F8C1528D291E3DC2F /* Sources */ = {
+		95FDFE53303BB2156FB8B337437A3F97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D491BC556851EFCC571573F6 /* Pods-libTWTValidation-dummy.m in Sources */,
+				1346D9B7DF9E4C1406CDB317063D9E49 /* Pods-SKValidation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B78126980461C9139C9C09AAA7D4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68792D0A9FFAF52F07EC0EF150E90C3 /* Pods-TWTValidation-iOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6FA450AD65E49C6DF9A5097812B72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3258D024CC255F210EBD4A5FFD7FCD4E /* Pods-libTWTValidationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69A65AFF88AFF0D310873AAAECEABE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA7DD38101EBB1D281CC2522D6DE911 /* Pods-TWTValidationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06170C646AD6A9B1D746887EF07F615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E9BF81091F664829029830D9CF3927 /* Pods-SKValidationTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43345D4DF49B0C65DF872ABF /* PBXTargetDependency */ = {
+		13A65E3FDFC7CADB91D56C932A440F76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-TWTValidation-URLMock";
-			target = 06AE54FA833267C98FDC08AF /* Pods-TWTValidation-URLMock */;
-			targetProxy = A487DC0606B65397098CA7A6 /* PBXContainerItemProxy */;
+			name = "URLMock-macOS";
+			target = 5E4D51877EEB83C6C6BD5F2B79672211 /* URLMock-macOS */;
+			targetProxy = 41F8E465FC3749CC3B2A192EDCE75121 /* PBXContainerItemProxy */;
 		};
-		95B1EA96CFA52CA175B2A447 /* PBXTargetDependency */ = {
+		6B810BB54748583E593F1BCD8F869DDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-libTWTValidation-URLMock";
-			target = D2C9BC39515725924AD66E92 /* Pods-libTWTValidation-URLMock */;
-			targetProxy = 5AB3D18789367AC367E80E63 /* PBXContainerItemProxy */;
+			name = "URLMock-macOS";
+			target = 5E4D51877EEB83C6C6BD5F2B79672211 /* URLMock-macOS */;
+			targetProxy = 8F34A6A5C98881AA16DCB13048337529 /* PBXContainerItemProxy */;
 		};
-		9CAC0650799DBAEAE7C762DC /* PBXTargetDependency */ = {
+		7692BE796B833D021BFC1D570EE976BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-TWTValidation-iOS-URLMock";
-			target = C65EBA7B40F9A6AE3C673EDD /* Pods-TWTValidation-iOS-URLMock */;
-			targetProxy = 08C41F658CBF58116FED154C /* PBXContainerItemProxy */;
+			name = "URLMock-iOS";
+			target = 466E2C2C83006BA1BF2D640011749550 /* URLMock-iOS */;
+			targetProxy = A249E0918FBA1DCDFB2F78A9ADA29E50 /* PBXContainerItemProxy */;
+		};
+		7F85EDA91BF48E3F906AC23D1239C2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "URLMock-macOS";
+			target = 5E4D51877EEB83C6C6BD5F2B79672211 /* URLMock-macOS */;
+			targetProxy = 0652AE3A402315ACCD80DE8D2377D47D /* PBXContainerItemProxy */;
+		};
+		9F53D5EFD314FB33B7DB22E88A893B71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "URLMock-iOS";
+			target = 466E2C2C83006BA1BF2D640011749550 /* URLMock-iOS */;
+			targetProxy = 172AA0D44D9CFE624595A07C0DCE4E19 /* PBXContainerItemProxy */;
+		};
+		A8C60C58371BAB10A942166980A3571E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "URLMock-iOS";
+			target = 466E2C2C83006BA1BF2D640011749550 /* URLMock-iOS */;
+			targetProxy = 7C47A40CFA9C2DA930320E48F1EF95C1 /* PBXContainerItemProxy */;
+		};
+		F4719CF96475A7C511898EDA0C7089F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "URLMock-macOS";
+			target = 5E4D51877EEB83C6C6BD5F2B79672211 /* URLMock-macOS */;
+			targetProxy = D2989673B04B4A0793B236F69AA7780B /* PBXContainerItemProxy */;
+		};
+		F86D369D2553987AE7604E15582D451B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "URLMock-iOS";
+			target = 466E2C2C83006BA1BF2D640011749550 /* URLMock-iOS */;
+			targetProxy = AD3AB71863A5F6951801341B53D28F74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D887C98ABBAA1D46FB54FB1 /* Debug */ = {
+		0127E19712C80AA292F4E1AC82CC3079 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781BCA217C5050C97160626F /* Pods-TWTValidation-URLMock-Private.xcconfig */;
+			baseConfigurationReference = 94CFE21DF7C1A80C2D61D257A4F2476C /* Pods-libTWTValidation.release.xcconfig */;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TWTValidation-URLMock/Pods-TWTValidation-URLMock-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		19A679475D30CF501968B10C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD01BFBFCBA2D9FD93C1EA09 /* Pods-libTWTValidation-URLMock-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-libTWTValidation-URLMock/Pods-libTWTValidation-URLMock-prefix.pch";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		2E1214467663E9481C94846D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C60132BC3C87FD5ED742DCF /* Pods-TWTValidation-iOS.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		40F63A6F5166D6FCC8E3D09E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 152B859C735AFD22BB3F1BB4 /* Pods-TWTValidation-iOS.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5C2A07CCAA3650D3AAC74F95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46FE94C474203A00D354FAFA /* Pods-TWTValidation.debug.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		83DC9D30A1D81F4BA95C4B5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781BCA217C5050C97160626F /* Pods-TWTValidation-URLMock-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TWTValidation-URLMock/Pods-TWTValidation-URLMock-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		925E239F745B75714ED6B5DE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD01BFBFCBA2D9FD93C1EA09 /* Pods-libTWTValidation-URLMock-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-libTWTValidation-URLMock/Pods-libTWTValidation-URLMock-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A402AAE51F16BB4E08FBEC3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE6C2F7DDB46EB39C9AA365 /* Pods-libTWTValidation.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		ADC94C6597C14841DAC6DB05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27CD135E8D41180982F7AEA3 /* Pods-TWTValidation-iOS-URLMock-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TWTValidation-iOS-URLMock/Pods-TWTValidation-iOS-URLMock-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C247035AB56830D0AA1C321E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC503AAFE9D037EADDC47024 /* Pods-TWTValidation.release.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C43F96979AF0EF1FD7BC3398 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C5D1C6FBD29D7C07747D0164 /* Debug */ = {
+		05A20CAE891B7B3435721966B5403BA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2D3660684F7B41B529D0764E0D42DE /* URLMock-iOS.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/URLMock-iOS/URLMock-iOS-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = URLMock;
+				PRODUCT_NAME = "URLMock-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D0171E688B7B719B5367BA59 /* Release */ = {
+		08FC66560EE31326F9525CDE849F16A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6378B453FB5F91DEA1839902 /* Pods-libTWTValidation.release.xcconfig */;
+			baseConfigurationReference = 46FFE565914B758F92DEB6912C6F8551 /* Pods-SKValidation.release.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		E1CD943EB84044EFB1D38340 /* Debug */ = {
+		0DFD2AC06A94621D2D75A5B495DAA0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27CD135E8D41180982F7AEA3 /* Pods-TWTValidation-iOS-URLMock-Private.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TWTValidation-iOS-URLMock/Pods-TWTValidation-iOS-URLMock-prefix.pch";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		233DBF9E3A55B6877F5F06ED72B1E95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDEC46A8333F6690DC7ADF346517A8C3 /* Pods-SKValidationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2788A5FE943C53DCBEB27C5918D6869F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26C721903E62EC873B5AF3142EAE9C1 /* Pods-TWTValidation-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C1143372F81446F5B21D2FD0F846439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE4AF3F07453BAFB32C50AA14D51EA6 /* Pods-SKValidation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		367683EB9C68671432155B790B00FD2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4021AC31194EB3A7659AADEFA75809ED /* Pods-libTWTValidationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64F37FAADE42FD3BC82C4AEE6A07409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48EEFAE6833FF6BDA38C04BB64ACD25 /* Pods-libTWTValidationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6523519B689DB9977C8A48CC4132A3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6AEF6214F2587AD8B0C5E19CD8493E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B733B0CBD657FB3CE799016754A9279B /* Pods-TWTValidation-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D46FD9C2E05293DA874D8A44E8915A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F47A2CDD99015F21BA442632FDAEC5E /* Pods-TWTValidation-iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FE7EEBB1CCB6CDDC1553A8E87864B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B342123779E65BF8E9E92AE7E3E29DFE /* Pods-TWTValidation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72AADCDA4B6F8C39EB0E1E0211679297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4659D93C9BBA86372195279AEA662B3C /* Pods-TWTValidationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A3167C73C1F19D1CFE1004F1D03A8D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD71A0727B796A5FBF51991C6707014 /* Pods-TWTValidationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89C4CE3E167827E9E71CEF0B75B6F503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4824CEF5A8E92D29BB59A00F45D09C71 /* Pods-SKValidationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ABD8149D10EFD6D3D96551E3377EBE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AABE4833DBC50F0C219E110D5CCB5AE /* Pods-libTWTValidation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEABA467BC4C7B3F6C0C2A65C426B88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABC8F93FAEF0EBB9C445F45711B17F6 /* Pods-TWTValidation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7182EE3D8F3B60C755881BE7ECCFCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2D3660684F7B41B529D0764E0D42DE /* URLMock-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/URLMock-iOS/URLMock-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = URLMock;
+				PRODUCT_NAME = "URLMock-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65BAAB858275E7CCFCB21753FA1C627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55510ABF77B5ADC4A421ECB6985E571C /* URLMock-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/URLMock-macOS/URLMock-macOS-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = URLMock;
+				PRODUCT_NAME = "URLMock-macOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		D8668C4D1843E480B4D17D3C19A33B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55510ABF77B5ADC4A421ECB6985E571C /* URLMock-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/URLMock-macOS/URLMock-macOS-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = URLMock;
+				PRODUCT_NAME = "URLMock-macOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		FDAA3EC35EE09BE6FB381FEFC60122C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23324AFC2B8C9CD571730A7320192628 /* Pods-TWTValidation-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3301843D45637AA6097647E6 /* Build configuration list for PBXNativeTarget "Pods-libTWTValidation-URLMock" */ = {
+		0075F4C06F9304093CEB80FDCD68647E /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				925E239F745B75714ED6B5DE /* Debug */,
-				19A679475D30CF501968B10C /* Release */,
+				FDAA3EC35EE09BE6FB381FEFC60122C3 /* Debug */,
+				6AEF6214F2587AD8B0C5E19CD8493E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4439370CA36F518412940AEA /* Build configuration list for PBXNativeTarget "Pods-libTWTValidation" */ = {
+		0D2F853E87EF4CAD16929A1BBA54D340 /* Build configuration list for PBXNativeTarget "Pods-libTWTValidation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A402AAE51F16BB4E08FBEC3A /* Debug */,
-				D0171E688B7B719B5367BA59 /* Release */,
+				ABD8149D10EFD6D3D96551E3377EBE4D /* Debug */,
+				0127E19712C80AA292F4E1AC82CC3079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FE0547D58927FF4A4D51390 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-iOS-URLMock" */ = {
+		1675C3AC926C69D61A4B8BFBBF673B71 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1CD943EB84044EFB1D38340 /* Debug */,
-				ADC94C6597C14841DAC6DB05 /* Release */,
+				2788A5FE943C53DCBEB27C5918D6869F /* Debug */,
+				6D46FD9C2E05293DA874D8A44E8915A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65B5B393A3DF41DD7C1DAFE6 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-iOS" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E1214467663E9481C94846D /* Debug */,
-				40F63A6F5166D6FCC8E3D09E /* Release */,
+				0DFD2AC06A94621D2D75A5B495DAA0E7 /* Debug */,
+				6523519B689DB9977C8A48CC4132A3AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75551D37A7B9108E327BBB59 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation" */ = {
+		55047662B04DC3F9581742856FC4C181 /* Build configuration list for PBXNativeTarget "URLMock-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C2A07CCAA3650D3AAC74F95 /* Debug */,
-				C247035AB56830D0AA1C321E /* Release */,
+				D65BAAB858275E7CCFCB21753FA1C627 /* Debug */,
+				D8668C4D1843E480B4D17D3C19A33B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		815538278612AEA4BB03B4EC /* Build configuration list for PBXNativeTarget "Pods-TWTValidation-URLMock" */ = {
+		7BECE77DAD833C2A3AD77B9F08FB0AD3 /* Build configuration list for PBXNativeTarget "Pods-SKValidation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D887C98ABBAA1D46FB54FB1 /* Debug */,
-				83DC9D30A1D81F4BA95C4B5A /* Release */,
+				2C1143372F81446F5B21D2FD0F846439 /* Debug */,
+				08FC66560EE31326F9525CDE849F16A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		857E3BC69383867FD74350C6 /* Build configuration list for PBXProject "Pods" */ = {
+		A81C4726B8E8422226D7CE0D7C04BF15 /* Build configuration list for PBXNativeTarget "Pods-SKValidationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5D1C6FBD29D7C07747D0164 /* Debug */,
-				C43F96979AF0EF1FD7BC3398 /* Release */,
+				233DBF9E3A55B6877F5F06ED72B1E95A /* Debug */,
+				89C4CE3E167827E9E71CEF0B75B6F503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23998D3CC87B34591298E1552C01324 /* Build configuration list for PBXNativeTarget "Pods-libTWTValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F37FAADE42FD3BC82C4AEE6A07409E /* Debug */,
+				367683EB9C68671432155B790B00FD2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF88724ACE4DF36206196F36B63618E2 /* Build configuration list for PBXNativeTarget "URLMock-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A20CAE891B7B3435721966B5403BA9 /* Debug */,
+				B7182EE3D8F3B60C755881BE7ECCFCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF20BA6A398FAEF64ACA36CB738A678 /* Build configuration list for PBXNativeTarget "Pods-TWTValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AADCDA4B6F8C39EB0E1E0211679297 /* Debug */,
+				7A3167C73C1F19D1CFE1004F1D03A8D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B18E59AF267B33BA69B9A51CE752D5 /* Build configuration list for PBXNativeTarget "Pods-TWTValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE7EEBB1CCB6CDDC1553A8E87864B27 /* Debug */,
+				AEABA467BC4C7B3F6C0C2A65C426B88F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B20650CF75E5E4EBB68EFA74 /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

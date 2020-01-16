@@ -1,7 +1,8 @@
 Target = Struct.new(:target, :platform, :platform_version)
 
-targets = [ Target.new('TWTValidation', :osx, '10.8'), 
-            Target.new('TWTValidation-iOS', :ios, '6.0'), 
+targets = [ Target.new('TWTValidation', :osx, '10.8'),
+            Target.new('SKValidation', :osx, '10.8'),
+            Target.new('TWTValidation-iOS', :ios, '6.0'),
             Target.new('libTWTValidation', :ios, '6.0') ]
 
 targets.each do |t|
@@ -16,10 +17,10 @@ targets.each do |t|
     platform t.platform, t.platform_version
 
     # Pods for the test targets
-    #   Note that test targets inherit libraries from the main targets. Right now, 
+    #   Note that test targets inherit libraries from the main targets. Right now,
     #   the project uses the main target’s xcconfig files for both the main and test
     #   targets. Also, the libTWTValidationTests target explicitly overrides the linking
     #   flags to not link anything from the pods. You’ll have to come up with a better
-    #   solution to this problem should you add any pods here. 
+    #   solution to this problem should you add any pods here.
   end
 end
