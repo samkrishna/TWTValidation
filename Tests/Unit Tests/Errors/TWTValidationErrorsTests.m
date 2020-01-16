@@ -29,26 +29,12 @@
 
 @interface TWTValidationErrorsTests : TWTRandomizedTestCase
 
-- (void)testValidationErrorWithCodeValueLocalizedDescription;
-- (void)testValidationErrorWithCodeValueLocalizedDescriptionUnderlyingErrors;
-- (void)testValidationErrorWithCodeFailingValidatorValueLocalizedDescription;
-- (void)testValidationErrorWithCodeFailingValidatorValueLocalizedDescriptionUnderlyingErrors;
-
-- (void)testValidatedValue;
-- (void)testUnderlyingErrors;
-- (void)testUnderlyingErrorsByKey;
-- (void)testCountValidationError;
-- (void)testElementValidationErrors;
-- (void)testKeyValidationErrors;
-- (void)testValueValidationErrors;
-- (void)testKeyValuePairValidationErrors;
-
 @end
 
 
 @implementation TWTValidationErrorsTests
 
-- (NSError *)randomErrorWithObject:(id)object forUserInfoKey:(id<NSCopying>)key
+- (NSError *)randomErrorWithObject:(id)object forUserInfoKey:(NSString *)key
 {
     NSParameterAssert(key);
     NSParameterAssert(object);
@@ -56,7 +42,7 @@
 }
 
 
-- (NSError *)randomErrorWithoutUserInfoKey:(id<NSCopying>)key
+- (NSError *)randomErrorWithoutUserInfoKey:(NSString *)key
 {
     NSError *error = nil;
     while (!(error = UMKRandomError()) || error.userInfo[key]);
