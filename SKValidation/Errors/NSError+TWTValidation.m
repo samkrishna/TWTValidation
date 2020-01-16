@@ -55,4 +55,96 @@ NSString *const TWTJSONSchemaParserInvalidObjectKey = @"TWT JSON Schema Parser I
 
 @implementation NSError (TWTValidation)
 
++ (NSError *)twt_validationErrorWithCode:(TWTValidationErrorCode)code value:(id)value localizedDescription:(NSString *)description
+{
+    return [self twt_validationErrorWithCode:code failingValidator:nil value:value localizedDescription:description underlyingErrors:nil];
+}
+
+
++ (NSError *)twt_validationErrorWithCode:(TWTValidationErrorCode)code value:(id)value localizedDescription:(NSString *)description underlyingErrors:(NSArray *)errors
+{
+    return [self twt_validationErrorWithCode:code failingValidator:nil value:value localizedDescription:description underlyingErrors:errors];
+}
+
++ (NSError *)twt_validationErrorWithCode:(TWTValidationErrorCode)code failingValidator:(TWTValidator * _Nullable)validator value:(id)value localizedDescription:(NSString *)description
+{
+    return [self twt_validationErrorWithCode:code failingValidator:validator value:value localizedDescription:description underlyingErrors:nil];
+}
+
++ (NSError *)twt_validationErrorWithCode:(TWTValidationErrorCode)code failingValidator:(TWTValidator * _Nullable)validator value:(id)value localizedDescription:(NSString *)description underlyingErrors:(NSArray * _Nullable )errors
+{
+    NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithCapacity:4];
+
+    if (validator) {
+        userInfo[TWTValidationFailingValidatorKey] = validator;
+    }
+
+    if (value) {
+        userInfo[TWTValidationValidatedValueKey] = value;
+    }
+
+    if (description) {
+        userInfo[NSLocalizedDescriptionKey] = [description copy];
+    }
+
+    if (errors.count) {
+        userInfo[TWTValidationUnderlyingErrorsKey] = [errors copy];
+    }
+
+    return [NSError errorWithDomain:TWTValidationErrorDomain code:code userInfo:userInfo];
+}
+
+- (TWTValidator *)twt_failingValidator
+{
+    return self.userInfo[TWTValidationFailingValidatorKey];
+}
+
+
+- (id)twt_validatedValue
+{
+    return self.userInfo[TWTValidationValidatedValueKey];
+}
+
+
+- (NSArray *)twt_underlyingErrors
+{
+    return self.userInfo[TWTValidationUnderlyingErrorsKey];
+}
+
+
+- (NSDictionary *)twt_underlyingErrorsByKey
+{
+    return self.userInfo[TWTValidationUnderlyingErrorsByKeyKey];
+}
+
+
+- (NSError *)twt_countValidationError
+{
+    return self.userInfo[TWTValidationCountValidationErrorKey];
+}
+
+
+- (NSArray *)twt_elementValidationErrors
+{
+    return self.userInfo[TWTValidationElementValidationErrorsKey];
+}
+
+
+- (NSArray *)twt_keyValidationErrors
+{
+    return self.userInfo[TWTValidationKeyValidationErrorsKey];
+}
+
+
+- (NSArray *)twt_valueValidationErrors
+{
+    return self.userInfo[TWTValidationValueValidationErrorsKey];
+}
+
+
+- (NSArray *)twt_keyValuePairValidationErrors
+{
+    return self.userInfo[TWTValidationKeyValuePairValidationErrorsKey];
+}
+
 @end

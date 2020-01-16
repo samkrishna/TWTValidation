@@ -98,6 +98,43 @@ typedef NS_ENUM(NSUInteger, TWTJSONSchemaParserErrorCode) {
 
 @interface NSError (TWTValidation)
 
++ (NSError *)twt_validationErrorWithCode:(TWTValidationErrorCode)code value:(id)value localizedDescription:(NSString *)description __deprecated_msg("Use +twt_validationErrorWithCode:failingValidator:value:localizedDescription: instead.");
+
++ (NSError *)twt_validationErrorWithCode:(TWTValidationErrorCode)code
+                                   value:(id)value
+                    localizedDescription:(NSString *)description
+                        underlyingErrors:(NSArray *)errors
+  __deprecated_msg("Use +twt_validationErrorWithCode:failingValidator:value:localizedDescription:underlyingErrors: instead.");
+
++ (NSError *)twt_validationErrorWithCode:(TWTValidationErrorCode)code
+                        failingValidator:(TWTValidator * _Nullable)validator
+                                   value:(id)value
+                    localizedDescription:(NSString *)description;
+
++ (NSError *)twt_validationErrorWithCode:(TWTValidationErrorCode)code
+                        failingValidator:(TWTValidator * _Nullable)validator
+                                   value:(id)value
+                    localizedDescription:(NSString *)description
+                        underlyingErrors:(NSArray * _Nullable)errors;
+
+- (TWTValidator *)twt_failingValidator;
+
+- (id)twt_validatedValue;
+
+- (NSArray *)twt_underlyingErrors;
+
+- (NSDictionary *)twt_underlyingErrorsByKey;
+
+- (NSError *)twt_countValidationError;
+
+- (NSArray *)twt_elementValidationErrors;
+
+- (NSArray *)twt_keyValidationErrors;
+
+- (NSArray *)twt_valueValidationErrors;
+
+- (NSArray *)twt_keyValuePairValidationErrors;
+
 @end
 
 NS_ASSUME_NONNULL_END
